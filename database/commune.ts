@@ -12339,5 +12339,4 @@ const commune =  {
   ]
 }
 
-
 export default commune;

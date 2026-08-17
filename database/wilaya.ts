@@ -956,15 +956,12 @@ const wilaya = {
   ].map(w => ({
 ...w,
 new_2025: Boolean(w.new_2025)
-}))
-,
+})),
 "total_communes": 1541,
 "files": {
 "main.json": "All 69 wilayas with coordinates and details",
 "communes.json": "All 1,541 communes with Arabic names and dairas"
 }
 };
-
-
 
 export default wilaya
