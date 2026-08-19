@@ -1117,8 +1117,8 @@ const daira = {
     },
     {
       id: 111,
-      name: "Silet",
-      name_ar: "سيلت",
+      name: "Abalessa",
+      name_ar: "أبلسة",
       wilaya_name: "Tamanrasset",
       wilaya_name_ar: "تمنراست",
       wilaya_id: 11,
@@ -5494,8 +5494,8 @@ const daira = {
       wilaya_id: 69,
       new_2026: true,
       commune_count: 4
-    }
-  ]
+    },
+  ],
 };
 
 export default daira;
