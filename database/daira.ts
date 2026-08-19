@@ -5494,8 +5494,8 @@ const daira = {
       wilaya_id: 69,
       new_2026: true,
       commune_count: 4
-    },
-  ],
+    }
+  ]
 };
 
 export default daira;
