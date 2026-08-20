@@ -22,7 +22,7 @@ const dairaFinalUpdate = {
   total_wilayas: 69,
   last_updated: "2026-07-31",
   version: "2.0.0",
-  description: "All dairas of Algeria with their wilaya information and commune count",
+  description: "All dairas of Algeria with their wilaya information, commune count, and coordinates derived from the commune with the lowest code_commune in each daira.",
 
   dairas: [
     {
@@ -33,7 +33,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أدرار",
         wilaya_id: 1,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 27.87429,
+        longitude: -0.297222
     
       // equivalent_id: 1
       // equivalent_count: 1
@@ -48,7 +50,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أدرار",
         wilaya_id: 1,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 26.95083333,
+        longitude: 1.015
     
       // equivalent_id: 3
       // equivalent_count: 1
@@ -63,7 +67,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أدرار",
         wilaya_id: 1,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 27.416666,
+        longitude: 0.2667
     
       // equivalent_id: 6
       // equivalent_count: 1
@@ -78,7 +84,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أدرار",
         wilaya_id: 1,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 26.71576,
+        longitude: 0.1714
     
       // equivalent_id: 7
       // equivalent_count: 2
@@ -94,7 +102,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أدرار",
         wilaya_id: 1,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 28.35049,
+        longitude: -0.216111
     
       // equivalent_id: 10
       // equivalent_count: 1
@@ -109,7 +119,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أدرار",
         wilaya_id: 1,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 27.09388889,
+        longitude: -0.121
     
       // equivalent_id: 11
       // equivalent_count: 1
@@ -124,7 +136,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الشلف",
         wilaya_id: 2,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.3167,
+        longitude: 1.335167
     
       // equivalent_id: 13
       // equivalent_count: 1
@@ -139,7 +153,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الشلف",
         wilaya_id: 2,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.245277,
+        longitude: 0.970516
     
       // equivalent_id: 14
       // equivalent_count: 1
@@ -154,7 +170,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الشلف",
         wilaya_id: 2,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.5311,
+        longitude: 1.56891
     
       // equivalent_id: 15
       // equivalent_count: 1
@@ -169,7 +187,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الشلف",
         wilaya_id: 2,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.1100346,
+        longitude: 1.110123
     
       // equivalent_id: 16
       // equivalent_count: 1
@@ -184,7 +204,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الشلف",
         wilaya_id: 2,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.1647,
+        longitude: 1.3317
     
       // equivalent_id: 12
       // equivalent_count: 1
@@ -199,7 +221,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الشلف",
         wilaya_id: 2,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.116111,
+        longitude: 1.55
     
       // equivalent_id: 17
       // equivalent_count: 2
@@ -215,7 +239,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الشلف",
         wilaya_id: 2,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.401579,
+        longitude: 0.9161822
     
       // equivalent_id: 18
       // equivalent_count: 2
@@ -231,7 +257,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الشلف",
         wilaya_id: 2,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.280556,
+        longitude: 1.516111
     
       // equivalent_id: 19
       // equivalent_count: 1
@@ -246,7 +274,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الشلف",
         wilaya_id: 2,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.0158333,
+        longitude: 1.3783333
     
       // equivalent_id: 20
       // equivalent_count: 1
@@ -261,7 +291,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الشلف",
         wilaya_id: 2,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.2316052,
+        longitude: 1.236999
     
       // equivalent_id: 21
       // equivalent_count: 1
@@ -276,7 +308,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الشلف",
         wilaya_id: 2,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.244723,
+        longitude: 0.922852
     
       // equivalent_id: 22
       // equivalent_count: 1
@@ -291,7 +325,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الشلف",
         wilaya_id: 2,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.509722,
+        longitude: 1.30809
     
       // equivalent_id: 23
       // equivalent_count: 1
@@ -306,7 +342,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الشلف",
         wilaya_id: 2,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.3539,
+        longitude: 1.37403
     
       // equivalent_id: 24
       // equivalent_count: 1
@@ -321,7 +359,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الأغواط",
         wilaya_id: 3,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 33.7956,
+        longitude: 2.3052
     
       // equivalent_id: 27
       // equivalent_count: 1
@@ -336,7 +376,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الأغواط",
         wilaya_id: 3,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.2961,
+        longitude: 1.94667
     
       // equivalent_id: 30
       // equivalent_count: 1
@@ -351,7 +393,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الأغواط",
         wilaya_id: 3,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 33.41742,
+        longitude: 3.55021
     
       // equivalent_id: 31
       // equivalent_count: 1
@@ -366,7 +410,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الأغواط",
         wilaya_id: 3,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 33.788564,
+        longitude: 3.140717
     
       // equivalent_id: 32
       // equivalent_count: 1
@@ -381,7 +427,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الأغواط",
         wilaya_id: 3,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 33.8,
+        longitude: 2.875
     
       // equivalent_id: 25
       // equivalent_count: 1
@@ -396,7 +444,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الأغواط",
         wilaya_id: 3,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 34.12942,
+        longitude: 3.01436
     
       // equivalent_id: 34
       // equivalent_count: 3
@@ -412,7 +462,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أم البواقي",
         wilaya_id: 4,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.941111,
+        longitude: 7.1875
     
       // equivalent_id: 36
       // equivalent_count: 1
@@ -427,7 +479,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أم البواقي",
         wilaya_id: 4,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.7981327,
+        longitude: 7.3921734
     
       // equivalent_id: 37
       // equivalent_count: 2
@@ -443,7 +497,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أم البواقي",
         wilaya_id: 4,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.70805,
+        longitude: 6.816944
     
       // equivalent_id: 38
       // equivalent_count: 2
@@ -459,7 +515,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أم البواقي",
         wilaya_id: 4,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.916667,
+        longitude: 6.68333
     
       // equivalent_id: 39
       // equivalent_count: 2
@@ -475,7 +533,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أم البواقي",
         wilaya_id: 4,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.03823,
+        longitude: 6.57318
     
       // equivalent_id: 40
       // equivalent_count: 1
@@ -490,7 +550,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أم البواقي",
         wilaya_id: 4,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.461111,
+        longitude: 7.547222
     
       // equivalent_id: 41
       // equivalent_count: 1
@@ -505,7 +567,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أم البواقي",
         wilaya_id: 4,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.663889,
+        longitude: 7.2989
     
       // equivalent_id: 42
       // equivalent_count: 1
@@ -520,7 +584,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أم البواقي",
         wilaya_id: 4,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 36.0833,
+        longitude: 7.25
     
       // equivalent_id: 43
       // equivalent_count: 1
@@ -535,7 +601,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أم البواقي",
         wilaya_id: 4,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.790804,
+        longitude: 7.6833
     
       // equivalent_id: 44
       // equivalent_count: 1
@@ -550,7 +618,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أم البواقي",
         wilaya_id: 4,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.8706,
+        longitude: 7.117
     
       // equivalent_id: 35
       // equivalent_count: 1
@@ -565,7 +635,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أم البواقي",
         wilaya_id: 4,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.111944,
+        longitude: 6.8822
     
       // equivalent_id: 45
       // equivalent_count: 1
@@ -580,7 +652,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أم البواقي",
         wilaya_id: 4,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.895833,
+        longitude: 6.389444
     
       // equivalent_id: 46
       // equivalent_count: 2
@@ -596,7 +670,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "باتنة",
         wilaya_id: 5,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.8308281,
+        longitude: 6.0044121
     
       // equivalent_id: 48
       // equivalent_count: 1
@@ -611,7 +687,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "باتنة",
         wilaya_id: 5,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.266667,
+        longitude: 5.9198387
     
       // equivalent_id: 49
       // equivalent_count: 3
@@ -627,7 +705,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "باتنة",
         wilaya_id: 5,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.25881,
+        longitude: 6.34706
     
       // equivalent_id: 50
       // equivalent_count: 1
@@ -642,7 +722,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "باتنة",
         wilaya_id: 5,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.55597,
+        longitude: 6.1741447
     
       // equivalent_id: 47
       // equivalent_count: 1
@@ -657,7 +739,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "باتنة",
         wilaya_id: 5,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.2698953,
+        longitude: 6.0996978
     
       // equivalent_id: 52
       // equivalent_count: 5
@@ -673,7 +757,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "باتنة",
         wilaya_id: 5,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.66528,
+        longitude: 6.5011
     
       // equivalent_id: 53
       // equivalent_count: 1
@@ -688,7 +774,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "باتنة",
         wilaya_id: 5,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.63121,
+        longitude: 6.369152
     
       // equivalent_id: 55
       // equivalent_count: 1
@@ -703,7 +791,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "باتنة",
         wilaya_id: 5,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.286388,
+        longitude: 6.55
     
       // equivalent_id: 56
       // equivalent_count: 1
@@ -718,7 +808,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "باتنة",
         wilaya_id: 5,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.1777,
+        longitude: 6.006775
     
       // equivalent_id: 57
       // equivalent_count: 1
@@ -733,7 +825,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "باتنة",
         wilaya_id: 5,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.63106,
+        longitude: 5.91186
     
       // equivalent_id: 58
       // equivalent_count: 1
@@ -748,7 +842,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "باتنة",
         wilaya_id: 5,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.561836,
+        longitude: 5.610924
     
       // equivalent_id: 59
       // equivalent_count: 1
@@ -763,7 +859,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "باتنة",
         wilaya_id: 5,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.7981327,
+        longitude: 5.8679
     
       // equivalent_id: 60
       // equivalent_count: 1
@@ -778,7 +876,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "باتنة",
         wilaya_id: 5,
         new_2026: false,
-        commune_count: 6
+        commune_count: 6,
+        latitude: 35.807778,
+        longitude: 6
     
       // equivalent_id: 61
       // equivalent_count: 1
@@ -793,7 +893,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "باتنة",
         wilaya_id: 5,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.691666,
+        longitude: 6.18639
     
       // equivalent_id: 63
       // equivalent_count: 2
@@ -809,7 +911,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "باتنة",
         wilaya_id: 5,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.489188,
+        longitude: 6.254311
     
       // equivalent_id: 65
       // equivalent_count: 2
@@ -825,7 +929,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "باتنة",
         wilaya_id: 5,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.24695,
+        longitude: 6.19062
     
       // equivalent_id: 66
       // equivalent_count: 2
@@ -841,7 +947,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "باتنة",
         wilaya_id: 5,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.4843,
+        longitude: 6.6247
     
       // equivalent_id: 67
       // equivalent_count: 1
@@ -856,7 +964,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "باتنة",
         wilaya_id: 5,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.2576,
+        longitude: 6.20608
     
       // equivalent_id: 64
       // equivalent_count: 1
@@ -871,7 +981,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بجاية",
         wilaya_id: 6,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.7202155,
+        longitude: 4.7381
     
       // equivalent_id: 69
       // equivalent_count: 1
@@ -886,7 +998,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بجاية",
         wilaya_id: 6,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.5135502,
+        longitude: 4.5108862
     
       // equivalent_id: 70
       // equivalent_count: 1
@@ -901,7 +1015,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بجاية",
         wilaya_id: 6,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.64022,
+        longitude: 4.9013
     
       // equivalent_id: 71
       // equivalent_count: 1
@@ -916,7 +1032,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بجاية",
         wilaya_id: 6,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.6333,
+        longitude: 5.25
     
       // equivalent_id: 72
       // equivalent_count: 1
@@ -931,7 +1049,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بجاية",
         wilaya_id: 6,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.653,
+        longitude: 5.0173
     
       // equivalent_id: 73
       // equivalent_count: 1
@@ -946,7 +1066,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بجاية",
         wilaya_id: 6,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.7508896,
+        longitude: 5.0567333
     
       // equivalent_id: 68
       // equivalent_count: 1
@@ -961,7 +1083,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بجاية",
         wilaya_id: 6,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 36.478051,
+        longitude: 4.638441
     
       // equivalent_id: 74
       // equivalent_count: 1
@@ -976,7 +1100,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بجاية",
         wilaya_id: 6,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.5944017,
+        longitude: 4.6210411
     
       // equivalent_id: 75
       // equivalent_count: 1
@@ -991,7 +1117,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بجاية",
         wilaya_id: 6,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.6344,
+        longitude: 5.375595
     
       // equivalent_id: 76
       // equivalent_count: 1
@@ -1006,7 +1134,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بجاية",
         wilaya_id: 6,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.671667,
+        longitude: 4.790555
     
       // equivalent_id: 77
       // equivalent_count: 1
@@ -1021,7 +1151,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بجاية",
         wilaya_id: 6,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 36.54203,
+        longitude: 4.6127777
     
       // equivalent_id: 80
       // equivalent_count: 1
@@ -1036,7 +1168,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بجاية",
         wilaya_id: 6,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.3379865,
+        longitude: 4.4702131
     
       // equivalent_id: 78
       // equivalent_count: 1
@@ -1051,7 +1185,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بجاية",
         wilaya_id: 6,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.492724,
+        longitude: 5.278
     
       // equivalent_id: 79
       // equivalent_count: 1
@@ -1066,7 +1202,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بجاية",
         wilaya_id: 6,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.563407,
+        longitude: 4.710368
     
       // equivalent_id: 81
       // equivalent_count: 2
@@ -1082,7 +1220,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بجاية",
         wilaya_id: 6,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 36.6253,
+        longitude: 4.681
     
       // equivalent_id: 82
       // equivalent_count: 1
@@ -1097,7 +1237,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بجاية",
         wilaya_id: 6,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.6256524,
+        longitude: 5.3360215
     
       // equivalent_id: 83
       // equivalent_count: 1
@@ -1112,7 +1254,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بجاية",
         wilaya_id: 6,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.3878041,
+        longitude: 4.4079213
     
       // equivalent_id: 84
       // equivalent_count: 2
@@ -1128,7 +1272,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بجاية",
         wilaya_id: 6,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.6961,
+        longitude: 5.1550882
     
       // equivalent_id: 85
       // equivalent_count: 1
@@ -1143,7 +1289,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بجاية",
         wilaya_id: 6,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 36.615556,
+        longitude: 4.7667
     
       // equivalent_id: 86
       // equivalent_count: 1
@@ -1158,7 +1306,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بسكرة",
         wilaya_id: 7,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 34.8,
+        longitude: 5.7510475
     
       // equivalent_id: 87
       // equivalent_count: 1
@@ -1173,7 +1323,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بسكرة",
         wilaya_id: 7,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 34.7326063,
+        longitude: 5.31666667
     
       // equivalent_id: 91
       // equivalent_count: 1
@@ -1188,7 +1340,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بسكرة",
         wilaya_id: 7,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 34.9497,
+        longitude: 6.0039
     
       // equivalent_id: 92
       // equivalent_count: 1
@@ -1203,7 +1357,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بسكرة",
         wilaya_id: 7,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 34.69292,
+        longitude: 5.6883
     
       // equivalent_id: 94
       // equivalent_count: 1
@@ -1218,7 +1374,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بسكرة",
         wilaya_id: 7,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 34.801667,
+        longitude: 5.6597222
     
       // equivalent_id: 96
       // equivalent_count: 1
@@ -1233,7 +1391,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بسكرة",
         wilaya_id: 7,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 34.7214,
+        longitude: 5.3802134
     
       // equivalent_id: 97
       // equivalent_count: 1
@@ -1248,7 +1408,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بسكرة",
         wilaya_id: 7,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 34.683,
+        longitude: 6.511
     
       // equivalent_id: 98
       // equivalent_count: 1
@@ -1263,7 +1425,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بشار",
         wilaya_id: 8,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 31.0347,
+        longitude: -2.791389
     
       // equivalent_id: 100
       // equivalent_count: 1
@@ -1278,7 +1442,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بشار",
         wilaya_id: 8,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 31.61667,
+        longitude: -2.21667
     
       // equivalent_id: 99
       // equivalent_count: 1
@@ -1293,7 +1459,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بشار",
         wilaya_id: 8,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 32.0492426,
+        longitude: -1.2514
     
       // equivalent_id: 102
       // equivalent_count: 1
@@ -1308,7 +1476,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بشار",
         wilaya_id: 8,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 31.55,
+        longitude: -2.95
     
       // equivalent_id: 105
       // equivalent_count: 1
@@ -1323,7 +1493,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بشار",
         wilaya_id: 8,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 31.931388,
+        longitude: -2.2597
     
       // equivalent_id: 107
       // equivalent_count: 1
@@ -1338,7 +1510,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بشار",
         wilaya_id: 8,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 29.41005,
+        longitude: -3.25261
     
       // equivalent_id: 109
       // equivalent_count: 1
@@ -1353,7 +1527,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بشار",
         wilaya_id: 8,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 30.9201058,
+        longitude: -2.0322172
     
       // equivalent_id: 110
       // equivalent_count: 1
@@ -1368,7 +1544,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البليدة",
         wilaya_id: 9,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.47004,
+        longitude: 2.8319
     
       // equivalent_id: 111
       // equivalent_count: 2
@@ -1384,7 +1562,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البليدة",
         wilaya_id: 9,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.51833,
+        longitude: 2.905278
     
       // equivalent_id: 112
       // equivalent_count: 1
@@ -1399,7 +1579,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البليدة",
         wilaya_id: 9,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.486667,
+        longitude: 3.045
     
       // equivalent_id: 113
       // equivalent_count: 3
@@ -1415,7 +1597,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البليدة",
         wilaya_id: 9,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.567222,
+        longitude: 3.0085182
     
       // equivalent_id: 114
       // equivalent_count: 4
@@ -1431,7 +1615,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البليدة",
         wilaya_id: 9,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.4701,
+        longitude: 2.625
     
       // equivalent_id: 115
       // equivalent_count: 1
@@ -1446,7 +1632,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البليدة",
         wilaya_id: 9,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.5329164,
+        longitude: 3.2483058
     
       // equivalent_id: 116
       // equivalent_count: 1
@@ -1461,7 +1649,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البليدة",
         wilaya_id: 9,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.6204,
+        longitude: 3.22248
     
       // equivalent_id: 117
       // equivalent_count: 1
@@ -1476,7 +1666,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البليدة",
         wilaya_id: 9,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.4669,
+        longitude: 2.75
     
       // equivalent_id: 118
       // equivalent_count: 1
@@ -1491,7 +1683,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البليدة",
         wilaya_id: 9,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.55528,
+        longitude: 2.79028
     
       // equivalent_id: 119
       // equivalent_count: 1
@@ -1506,7 +1700,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البليدة",
         wilaya_id: 9,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.50393,
+        longitude: 2.8619
     
       // equivalent_id: 120
       // equivalent_count: 1
@@ -1521,7 +1717,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البويرة",
         wilaya_id: 10,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.33889,
+        longitude: 3.806389
     
       // equivalent_id: 122
       // equivalent_count: 1
@@ -1536,7 +1734,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البويرة",
         wilaya_id: 10,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 36.3206,
+        longitude: 4.013889
     
       // equivalent_id: 123
       // equivalent_count: 1
@@ -1551,7 +1751,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البويرة",
         wilaya_id: 10,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.55528,
+        longitude: 3.7375
     
       // equivalent_id: 124
       // equivalent_count: 1
@@ -1566,7 +1768,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البويرة",
         wilaya_id: 10,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.376111,
+        longitude: 4.07056
     
       // equivalent_id: 125
       // equivalent_count: 1
@@ -1581,7 +1785,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البويرة",
         wilaya_id: 10,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.37763,
+        longitude: 3.8962348
     
       // equivalent_id: 121
       // equivalent_count: 4
@@ -1597,7 +1803,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البويرة",
         wilaya_id: 10,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.24071,
+        longitude: 3.8161
     
       // equivalent_id: 126
       // equivalent_count: 3
@@ -1613,7 +1821,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البويرة",
         wilaya_id: 10,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.3167,
+        longitude: 3.9667
     
       // equivalent_id: 127
       // equivalent_count: 1
@@ -1628,7 +1838,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البويرة",
         wilaya_id: 10,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.5200245,
+        longitude: 3.6927531
     
       // equivalent_id: 128
       // equivalent_count: 2
@@ -1644,7 +1856,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البويرة",
         wilaya_id: 10,
         new_2026: false,
-        commune_count: 6
+        commune_count: 6,
+        latitude: 36.4630499,
+        longitude: 3.4296446
     
       // equivalent_id: 129
       // equivalent_count: 2
@@ -1660,7 +1874,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البويرة",
         wilaya_id: 10,
         new_2026: false,
-        commune_count: 6
+        commune_count: 6,
+        latitude: 36.335801,
+        longitude: 4.34149
     
       // equivalent_id: 130
       // equivalent_count: 1
@@ -1675,7 +1891,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البويرة",
         wilaya_id: 10,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.388056,
+        longitude: 3.635
     
       // equivalent_id: 131
       // equivalent_count: 1
@@ -1690,7 +1908,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البويرة",
         wilaya_id: 10,
         new_2026: false,
-        commune_count: 6
+        commune_count: 6,
+        latitude: 36.0003,
+        longitude: 3.65992
     
       // equivalent_id: 132
       // equivalent_count: 1
@@ -1705,7 +1925,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تمنراست",
         wilaya_id: 11,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 22.6589167,
+        longitude: 4.85
     
       // equivalent_id: 134
       // equivalent_count: 1
@@ -1720,7 +1942,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تمنراست",
         wilaya_id: 11,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 22.7888209,
+        longitude: 5.52278
     
       // equivalent_id: 133
       // equivalent_count: 1
@@ -1735,7 +1959,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تمنراست",
         wilaya_id: 11,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 23.8173973,
+        longitude: 5.9343664
     
       // equivalent_id: 138
       // equivalent_count: 1
@@ -1750,7 +1976,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تبسة",
         wilaya_id: 12,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.590833,
+        longitude: 7.953
     
       // equivalent_id: 142
       // equivalent_count: 1
@@ -1765,7 +1993,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تبسة",
         wilaya_id: 12,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.2684831,
+        longitude: 7.7471025
     
       // equivalent_id: 143
       // equivalent_count: 3
@@ -1781,7 +2011,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تبسة",
         wilaya_id: 12,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.867,
+        longitude: 7.887778
     
       // equivalent_id: 144
       // equivalent_count: 1
@@ -1796,7 +2028,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تبسة",
         wilaya_id: 12,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.498333,
+        longitude: 8.321944
     
       // equivalent_id: 145
       // equivalent_count: 1
@@ -1811,7 +2045,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تبسة",
         wilaya_id: 12,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.29331683,
+        longitude: 8.278941075
     
       // equivalent_id: 146
       // equivalent_count: 1
@@ -1826,7 +2062,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تبسة",
         wilaya_id: 12,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 34.9984,
+        longitude: 7.30829
     
       // equivalent_id: 147
       // equivalent_count: 1
@@ -1841,7 +2079,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تبسة",
         wilaya_id: 12,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.66944,
+        longitude: 8.01667
     
       // equivalent_id: 148
       // equivalent_count: 1
@@ -1856,7 +2096,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تبسة",
         wilaya_id: 12,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.9533,
+        longitude: 8.12917
     
       // equivalent_id: 150
       // equivalent_count: 1
@@ -1871,7 +2113,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تبسة",
         wilaya_id: 12,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 34.9565856,
+        longitude: 8.2076282
     
       // equivalent_id: 151
       // equivalent_count: 1
@@ -1886,7 +2130,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تبسة",
         wilaya_id: 12,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 35.405556,
+        longitude: 8.12417
     
       // equivalent_id: 140
       // equivalent_count: 1
@@ -1901,7 +2147,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تلمسان",
         wilaya_id: 13,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 34.805556,
+        longitude: -0.9544444
     
       // equivalent_id: 153
       // equivalent_count: 1
@@ -1916,7 +2164,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تلمسان",
         wilaya_id: 13,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.9218192,
+        longitude: -1.9172519
     
       // equivalent_id: 154
       // equivalent_count: 1
@@ -1931,7 +2181,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تلمسان",
         wilaya_id: 13,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 34.775277,
+        longitude: -1.6367
     
       // equivalent_id: 155
       // equivalent_count: 1
@@ -1946,7 +2198,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تلمسان",
         wilaya_id: 13,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.0739077,
+        longitude: -1.22747
     
       // equivalent_id: 157
       // equivalent_count: 1
@@ -1961,7 +2215,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تلمسان",
         wilaya_id: 13,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.87,
+        longitude: -1.1868
     
       // equivalent_id: 158
       // equivalent_count: 1
@@ -1976,7 +2232,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تلمسان",
         wilaya_id: 13,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.035,
+        longitude: -1.605833
     
       // equivalent_id: 159
       // equivalent_count: 1
@@ -1991,7 +2249,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تلمسان",
         wilaya_id: 13,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.093858,
+        longitude: -1.86038
     
       // equivalent_id: 160
       // equivalent_count: 1
@@ -2006,7 +2266,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تلمسان",
         wilaya_id: 13,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.0167,
+        longitude: -1.4583
     
       // equivalent_id: 161
       // equivalent_count: 1
@@ -2021,7 +2283,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تلمسان",
         wilaya_id: 13,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.1789336,
+        longitude: -1.6493532
     
       // equivalent_id: 162
       // equivalent_count: 1
@@ -2036,7 +2300,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تلمسان",
         wilaya_id: 13,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 34.8534497,
+        longitude: -1.730556
     
       // equivalent_id: 163
       // equivalent_count: 3
@@ -2052,7 +2318,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تلمسان",
         wilaya_id: 13,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 34.87045,
+        longitude: -1.42319
     
       // equivalent_id: 164
       // equivalent_count: 3
@@ -2068,7 +2336,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تلمسان",
         wilaya_id: 13,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.019722,
+        longitude: -2.065
     
       // equivalent_id: 165
       // equivalent_count: 1
@@ -2083,7 +2353,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تلمسان",
         wilaya_id: 13,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 34.976388,
+        longitude: -1.7248
     
       // equivalent_id: 166
       // equivalent_count: 1
@@ -2098,7 +2370,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تلمسان",
         wilaya_id: 13,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.8749625,
+        longitude: -1.1341144
     
       // equivalent_id: 167
       // equivalent_count: 1
@@ -2113,7 +2387,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تلمسان",
         wilaya_id: 13,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 35.06196,
+        longitude: -1.43362
     
       // equivalent_id: 168
       // equivalent_count: 1
@@ -2128,7 +2404,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تلمسان",
         wilaya_id: 13,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 34.8280257,
+        longitude: -1.5283
     
       // equivalent_id: 169
       // equivalent_count: 1
@@ -2143,7 +2421,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تلمسان",
         wilaya_id: 13,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 34.882777,
+        longitude: -1.316667
     
       // equivalent_id: 152
       // equivalent_count: 1
@@ -2158,7 +2438,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيارت",
         wilaya_id: 14,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.8422,
+        longitude: 1.5450766
     
       // equivalent_id: 173
       // equivalent_count: 1
@@ -2173,7 +2455,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيارت",
         wilaya_id: 14,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 34.8959,
+        longitude: 1.2407
     
       // equivalent_id: 174
       // equivalent_count: 1
@@ -2188,7 +2472,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيارت",
         wilaya_id: 14,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.355833,
+        longitude: 1.51056
     
       // equivalent_id: 175
       // equivalent_count: 1
@@ -2203,7 +2489,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيارت",
         wilaya_id: 14,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.05783,
+        longitude: 0.88479
     
       // equivalent_id: 176
       // equivalent_count: 1
@@ -2218,7 +2506,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيارت",
         wilaya_id: 14,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.35339,
+        longitude: 1.66699
     
       // equivalent_id: 179
       // equivalent_count: 2
@@ -2234,7 +2524,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيارت",
         wilaya_id: 14,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.44444,
+        longitude: 0.84972221
     
       // equivalent_id: 180
       // equivalent_count: 1
@@ -2249,7 +2541,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيارت",
         wilaya_id: 14,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.17721,
+        longitude: 1.203611
     
       // equivalent_id: 181
       // equivalent_count: 1
@@ -2264,7 +2558,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيارت",
         wilaya_id: 14,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.656111,
+        longitude: 1.3728
     
       // equivalent_id: 182
       // equivalent_count: 1
@@ -2279,7 +2575,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيارت",
         wilaya_id: 14,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.563333,
+        longitude: 1.2256
     
       // equivalent_id: 183
       // equivalent_count: 1
@@ -2294,7 +2592,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيارت",
         wilaya_id: 14,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.530278,
+        longitude: 1.6
     
       // equivalent_id: 184
       // equivalent_count: 1
@@ -2309,7 +2609,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيارت",
         wilaya_id: 14,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.18568,
+        longitude: 1.49612
     
       // equivalent_id: 185
       // equivalent_count: 1
@@ -2324,7 +2626,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيارت",
         wilaya_id: 14,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 35.3667,
+        longitude: 1.3167
     
       // equivalent_id: 172
       // equivalent_count: 1
@@ -2339,7 +2643,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.57056,
+        longitude: 4.31111
     
       // equivalent_id: 187
       // equivalent_count: 2
@@ -2355,7 +2661,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 36.76124,
+        longitude: 4.3194
     
       // equivalent_id: 188
       // equivalent_count: 1
@@ -2370,7 +2678,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.81702,
+        longitude: 4.53358
     
       // equivalent_id: 189
       // equivalent_count: 1
@@ -2385,7 +2695,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.6636279,
+        longitude: 4.0938
     
       // equivalent_id: 190
       // equivalent_count: 1
@@ -2400,7 +2712,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.575278,
+        longitude: 4.2989
     
       // equivalent_id: 191
       // equivalent_count: 1
@@ -2415,7 +2729,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.53117,
+        longitude: 3.9981
     
       // equivalent_id: 192
       // equivalent_count: 1
@@ -2430,7 +2746,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.5667,
+        longitude: 4.59611
     
       // equivalent_id: 193
       // equivalent_count: 1
@@ -2445,7 +2763,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.66180861,
+        longitude: 3.984722
     
       // equivalent_id: 194
       // equivalent_count: 1
@@ -2460,7 +2780,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.536,
+        longitude: 3.833
     
       // equivalent_id: 195
       // equivalent_count: 1
@@ -2475,7 +2797,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.51667,
+        longitude: 4.38333
     
       // equivalent_id: 196
       // equivalent_count: 1
@@ -2490,7 +2814,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.6562,
+        longitude: 4.140165
     
       // equivalent_id: 197
       // equivalent_count: 1
@@ -2505,7 +2831,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.6194358,
+        longitude: 3.9572374
     
       // equivalent_id: 198
       // equivalent_count: 1
@@ -2520,7 +2848,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.791944,
+        longitude: 4.063
     
       // equivalent_id: 199
       // equivalent_count: 2
@@ -2536,7 +2866,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.6718,
+        longitude: 4.341667
     
       // equivalent_id: 200
       // equivalent_count: 1
@@ -2551,7 +2883,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.4883,
+        longitude: 4.1820961
     
       // equivalent_id: 201
       // equivalent_count: 1
@@ -2566,7 +2900,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.55611,
+        longitude: 4.0897
     
       // equivalent_id: 202
       // equivalent_count: 1
@@ -2581,7 +2917,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.8,
+        longitude: 4.2667
     
       // equivalent_id: 203
       // equivalent_count: 1
@@ -2596,7 +2934,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.89623,
+        longitude: 4.12142
     
       // equivalent_id: 204
       // equivalent_count: 1
@@ -2611,7 +2951,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 36.733333,
+        longitude: 4.05
     
       // equivalent_id: 186
       // equivalent_count: 1
@@ -2626,7 +2968,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.6799518,
+        longitude: 4.2087286
     
       // equivalent_id: 206
       // equivalent_count: 1
@@ -2641,7 +2985,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيزي وزو",
         wilaya_id: 15,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.58839,
+        longitude: 3.77445
     
       // equivalent_id: 205
       // equivalent_count: 2
@@ -2657,7 +3003,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الجزائر",
         wilaya_id: 16,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 36.790703,
+        longitude: 3.05
     
       // equivalent_id: 207
       // equivalent_count: 2
@@ -2673,7 +3021,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الجزائر",
         wilaya_id: 16,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.6667,
+        longitude: 3.0961
     
       // equivalent_id: 208
       // equivalent_count: 1
@@ -2688,7 +3038,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الجزائر",
         wilaya_id: 16,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 36.7323254,
+        longitude: 3.045
     
       // equivalent_id: 209
       // equivalent_count: 1
@@ -2703,7 +3055,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الجزائر",
         wilaya_id: 16,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.6222556,
+        longitude: 2.9225893
     
       // equivalent_id: 210
       // equivalent_count: 2
@@ -2719,7 +3073,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الجزائر",
         wilaya_id: 16,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.7677,
+        longitude: 3.0297
     
       // equivalent_id: 211
       // equivalent_count: 1
@@ -2734,7 +3090,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الجزائر",
         wilaya_id: 16,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 36.7528506,
+        longitude: 2.9800558
     
       // equivalent_id: 212
       // equivalent_count: 2
@@ -2750,7 +3108,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الجزائر",
         wilaya_id: 16,
         new_2026: false,
-        commune_count: 7
+        commune_count: 7,
+        latitude: 36.7133,
+        longitude: 3.2125
     
       // equivalent_id: 213
       // equivalent_count: 1
@@ -2765,7 +3125,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الجزائر",
         wilaya_id: 16,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 36.694697,
+        longitude: 2.972
     
       // equivalent_id: 214
       // equivalent_count: 1
@@ -2780,7 +3142,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الجزائر",
         wilaya_id: 16,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.7164,
+        longitude: 3.715
     
       // equivalent_id: 215
       // equivalent_count: 2
@@ -2796,7 +3160,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الجزائر",
         wilaya_id: 16,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.7505682,
+        longitude: 3.070142
     
       // equivalent_id: 216
       // equivalent_count: 1
@@ -2811,7 +3177,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الجزائر",
         wilaya_id: 16,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.7259091,
+        longitude: 3.28079
     
       // equivalent_id: 217
       // equivalent_count: 3
@@ -2827,7 +3195,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الجزائر",
         wilaya_id: 16,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.76846,
+        longitude: 3.0909
     
       // equivalent_id: 218
       // equivalent_count: 2
@@ -2843,7 +3213,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الجزائر",
         wilaya_id: 16,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 36.6946148,
+        longitude: 2.8277963
     
       // equivalent_id: 219
       // equivalent_count: 1
@@ -2858,7 +3230,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الجلفة",
         wilaya_id: 17,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 34.5040006,
+        longitude: 3.470436
     
       // equivalent_id: 221
       // equivalent_count: 1
@@ -2873,7 +3247,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الجلفة",
         wilaya_id: 17,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.64650126,
+        longitude: 2.616250107
     
       // equivalent_id: 224
       // equivalent_count: 1
@@ -2888,7 +3264,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الجلفة",
         wilaya_id: 17,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.058055,
+        longitude: 3.430556
     
       // equivalent_id: 225
       // equivalent_count: 1
@@ -2903,7 +3281,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الجلفة",
         wilaya_id: 17,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 34.67279,
+        longitude: 3.25
     
       // equivalent_id: 220
       // equivalent_count: 2
@@ -2919,7 +3299,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الجلفة",
         wilaya_id: 17,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.4548511,
+        longitude: 2.5247449
     
       // equivalent_id: 226
       // equivalent_count: 1
@@ -2934,7 +3316,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الجلفة",
         wilaya_id: 17,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.0782285,
+        longitude: 3.0297
     
       // equivalent_id: 229
       // equivalent_count: 1
@@ -2949,7 +3333,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "جيجل",
         wilaya_id: 18,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.7714,
+        longitude: 5.9594
     
       // equivalent_id: 233
       // equivalent_count: 1
@@ -2964,7 +3350,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "جيجل",
         wilaya_id: 18,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.58,
+        longitude: 5.884167
     
       // equivalent_id: 255
       // equivalent_count: 1
@@ -2979,7 +3367,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "جيجل",
         wilaya_id: 18,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.7989,
+        longitude: 6.15721
     
       // equivalent_id: 235
       // equivalent_count: 1
@@ -2994,7 +3384,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "جيجل",
         wilaya_id: 18,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.7727264,
+        longitude: 5.61
     
       // equivalent_id: 237
       // equivalent_count: 2
@@ -3010,7 +3402,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "جيجل",
         wilaya_id: 18,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.7507275,
+        longitude: 6.2725
     
       // equivalent_id: 238
       // equivalent_count: 1
@@ -3025,7 +3419,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "جيجل",
         wilaya_id: 18,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 36.82055,
+        longitude: 5.7667
     
       // equivalent_id: 232
       // equivalent_count: 1
@@ -3040,7 +3436,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "جيجل",
         wilaya_id: 18,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.719444,
+        longitude: 6.335556
     
       // equivalent_id: 240
       // equivalent_count: 1
@@ -3055,7 +3453,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "جيجل",
         wilaya_id: 18,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.6475,
+        longitude: 6.2725
     
       // equivalent_id: 242
       // equivalent_count: 2
@@ -3071,7 +3471,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "جيجل",
         wilaya_id: 18,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 36.763,
+        longitude: 5.8979
     
       // equivalent_id: 236
       // equivalent_count: 1
@@ -3086,7 +3488,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "جيجل",
         wilaya_id: 18,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.7718,
+        longitude: 5.8136168
     
       // equivalent_id: 241
       // equivalent_count: 1
@@ -3101,7 +3505,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "جيجل",
         wilaya_id: 18,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.5861111,
+        longitude: 5.092008
     
       // equivalent_id: 239
       // equivalent_count: 1
@@ -3116,7 +3522,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.3,
+        longitude: 5.295
     
       // equivalent_id: 244
       // equivalent_count: 1
@@ -3131,7 +3539,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.938611,
+        longitude: 5.539167
     
       // equivalent_id: 245
       // equivalent_count: 1
@@ -3146,7 +3556,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.3647,
+        longitude: 5.5019
     
       // equivalent_id: 246
       // equivalent_count: 1
@@ -3161,7 +3573,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.901111,
+        longitude: 5.1640605
     
       // equivalent_id: 247
       // equivalent_count: 1
@@ -3176,7 +3590,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.38735,
+        longitude: 5.4137
     
       // equivalent_id: 248
       // equivalent_count: 1
@@ -3191,7 +3607,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.48994,
+        longitude: 5.5399
     
       // equivalent_id: 249
       // equivalent_count: 2
@@ -3207,7 +3625,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.4648323,
+        longitude: 5.6563119
     
       // equivalent_id: 250
       // equivalent_count: 1
@@ -3222,7 +3642,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.468333,
+        longitude: 4.8683
     
       // equivalent_id: 251
       // equivalent_count: 1
@@ -3237,7 +3659,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.1016103,
+        longitude: 5.7932008
     
       // equivalent_id: 252
       // equivalent_count: 1
@@ -3252,7 +3676,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.498889,
+        longitude: 5.0378
     
       // equivalent_id: 253
       // equivalent_count: 1
@@ -3267,7 +3693,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.3129898,
+        longitude: 5.1953554
     
       // equivalent_id: 254
       // equivalent_count: 2
@@ -3283,7 +3711,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.31351,
+        longitude: 5.73697
     
       // equivalent_id: 255
       // equivalent_count: 4
@@ -3299,7 +3729,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.156449,
+        longitude: 5.69016
     
       // equivalent_id: 256
       // equivalent_count: 1
@@ -3314,7 +3746,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.32488,
+        longitude: 4.92641
     
       // equivalent_id: 257
       // equivalent_count: 1
@@ -3329,7 +3763,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.19119,
+        longitude: 5.52999
     
       // equivalent_id: 258
       // equivalent_count: 1
@@ -3344,7 +3780,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.4629,
+        longitude: 4.99551
     
       // equivalent_id: 260
       // equivalent_count: 1
@@ -3359,7 +3797,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.976944,
+        longitude: 5.808889
     
       // equivalent_id: 259
       // equivalent_count: 1
@@ -3374,7 +3814,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.458333,
+        longitude: 5.088889
     
       // equivalent_id: 261
       // equivalent_count: 1
@@ -3389,7 +3831,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 35.66024,
+        longitude: 5.32103
     
       // equivalent_id: 262
       // equivalent_count: 1
@@ -3404,7 +3848,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سطيف",
         wilaya_id: 19,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 36.19112,
+        longitude: 5.4150871
     
       // equivalent_id: 243
       // equivalent_count: 1
@@ -3419,7 +3865,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سعيدة",
         wilaya_id: 20,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.75846,
+        longitude: 0.1444
     
       // equivalent_id: 264
       // equivalent_count: 4
@@ -3435,7 +3883,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سعيدة",
         wilaya_id: 20,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.824167,
+        longitude: 0.1
     
       // equivalent_id: 265
       // equivalent_count: 2
@@ -3451,7 +3901,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سعيدة",
         wilaya_id: 20,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.99,
+        longitude: 0.4772
     
       // equivalent_id: 266
       // equivalent_count: 2
@@ -3467,7 +3919,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سعيدة",
         wilaya_id: 20,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 34.833333,
+        longitude: 0.15
     
       // equivalent_id: 263
       // equivalent_count: 1
@@ -3482,7 +3936,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سعيدة",
         wilaya_id: 20,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 34.87666667,
+        longitude: 0.152777778
     
       // equivalent_id: 267
       // equivalent_count: 1
@@ -3497,7 +3953,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سعيدة",
         wilaya_id: 20,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 34.89306,
+        longitude: -0.0842
     
       // equivalent_id: 268
       // equivalent_count: 1
@@ -3512,7 +3970,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سكيكدة",
         wilaya_id: 21,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.7483,
+        longitude: 6.4349765
     
       // equivalent_id: 270
       // equivalent_count: 2
@@ -3528,7 +3988,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سكيكدة",
         wilaya_id: 21,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 36.73944,
+        longitude: 7.10528
     
       // equivalent_id: 271
       // equivalent_count: 1
@@ -3543,7 +4005,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سكيكدة",
         wilaya_id: 21,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.791944,
+        longitude: 7.30625
     
       // equivalent_id: 272
       // equivalent_count: 1
@@ -3558,7 +4022,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سكيكدة",
         wilaya_id: 21,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 37.0072,
+        longitude: 6.5609
     
       // equivalent_id: 273
       // equivalent_count: 1
@@ -3573,7 +4039,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سكيكدة",
         wilaya_id: 21,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.89027778,
+        longitude: 6.7856
     
       // equivalent_id: 274
       // equivalent_count: 1
@@ -3588,7 +4056,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سكيكدة",
         wilaya_id: 21,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 36.6531,
+        longitude: 6.64917
     
       // equivalent_id: 275
       // equivalent_count: 2
@@ -3604,7 +4074,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سكيكدة",
         wilaya_id: 21,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.994444,
+        longitude: 6.341389
     
       // equivalent_id: 276
       // equivalent_count: 2
@@ -3620,7 +4092,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سكيكدة",
         wilaya_id: 21,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 36.72611,
+        longitude: 6.58
     
       // equivalent_id: 277
       // equivalent_count: 2
@@ -3636,7 +4110,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سكيكدة",
         wilaya_id: 21,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.7552525,
+        longitude: 6.8927193
     
       // equivalent_id: 278
       // equivalent_count: 1
@@ -3651,7 +4127,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سكيكدة",
         wilaya_id: 21,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.68333333,
+        longitude: 6.7167
     
       // equivalent_id: 279
       // equivalent_count: 1
@@ -3666,7 +4144,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سكيكدة",
         wilaya_id: 21,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.87617,
+        longitude: 6.9
     
       // equivalent_id: 269
       // equivalent_count: 1
@@ -3681,7 +4161,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سكيكدة",
         wilaya_id: 21,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.929,
+        longitude: 6.586
     
       // equivalent_id: 280
       // equivalent_count: 1
@@ -3696,7 +4178,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سكيكدة",
         wilaya_id: 21,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.9880728,
+        longitude: 6.46049
     
       // equivalent_id: 281
       // equivalent_count: 1
@@ -3711,7 +4195,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سيدي بلعباس",
         wilaya_id: 22,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.26055556,
+        longitude: -0.5675
     
       // equivalent_id: 283
       // equivalent_count: 1
@@ -3726,7 +4212,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سيدي بلعباس",
         wilaya_id: 22,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.008889,
+        longitude: -0.8503
     
       // equivalent_id: 284
       // equivalent_count: 1
@@ -3741,7 +4229,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سيدي بلعباس",
         wilaya_id: 22,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.446751,
+        longitude: -0.195025
     
       // equivalent_id: 285
       // equivalent_count: 1
@@ -3756,7 +4246,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سيدي بلعباس",
         wilaya_id: 22,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.035,
+        longitude: -0.1
     
       // equivalent_id: 286
       // equivalent_count: 3
@@ -3772,7 +4264,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سيدي بلعباس",
         wilaya_id: 22,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.1925,
+        longitude: -0.358
     
       // equivalent_id: 287
       // equivalent_count: 1
@@ -3787,7 +4281,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سيدي بلعباس",
         wilaya_id: 22,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.8222,
+        longitude: -0.76041
     
       // equivalent_id: 288
       // equivalent_count: 1
@@ -3802,7 +4298,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سيدي بلعباس",
         wilaya_id: 22,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.4973612,
+        longitude: -0.8055976
     
       // equivalent_id: 289
       // equivalent_count: 1
@@ -3817,7 +4315,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سيدي بلعباس",
         wilaya_id: 22,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.1165888,
+        longitude: 0.15
     
       // equivalent_id: 290
       // equivalent_count: 1
@@ -3832,7 +4332,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سيدي بلعباس",
         wilaya_id: 22,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.066111,
+        longitude: -0.723333
     
       // equivalent_id: 291
       // equivalent_count: 1
@@ -3847,7 +4349,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سيدي بلعباس",
         wilaya_id: 22,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.1,
+        longitude: -0.833333333
     
       // equivalent_id: 292
       // equivalent_count: 1
@@ -3862,7 +4366,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سيدي بلعباس",
         wilaya_id: 22,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 35.2022249,
+        longitude: -0.6298922
     
       // equivalent_id: 282
       // equivalent_count: 1
@@ -3877,7 +4383,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سيدي بلعباس",
         wilaya_id: 22,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.135556,
+        longitude: -0.62278
     
       // equivalent_id: 293
       // equivalent_count: 1
@@ -3892,7 +4400,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سيدي بلعباس",
         wilaya_id: 22,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 34.7949589,
+        longitude: -0.5722
     
       // equivalent_id: 294
       // equivalent_count: 1
@@ -3907,7 +4417,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سيدي بلعباس",
         wilaya_id: 22,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.0197,
+        longitude: -0.52897
     
       // equivalent_id: 295
       // equivalent_count: 1
@@ -3922,7 +4434,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سيدي بلعباس",
         wilaya_id: 22,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.24356,
+        longitude: -0.773163
     
       // equivalent_id: 296
       // equivalent_count: 1
@@ -3937,7 +4451,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عنابة",
         wilaya_id: 23,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.738889,
+        longitude: 7.6667
     
       // equivalent_id: 283
       // equivalent_count: 3
@@ -3953,7 +4469,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عنابة",
         wilaya_id: 23,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.9,
+        longitude: 7.7667
     
       // equivalent_id: 297
       // equivalent_count: 1
@@ -3968,7 +4486,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عنابة",
         wilaya_id: 23,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.833333,
+        longitude: 7.45
     
       // equivalent_id: 299
       // equivalent_count: 1
@@ -3983,7 +4503,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عنابة",
         wilaya_id: 23,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 36.805556,
+        longitude: 7.38028
     
       // equivalent_id: 300
       // equivalent_count: 1
@@ -3998,7 +4520,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عنابة",
         wilaya_id: 23,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 36.8535764,
+        longitude: 7.663889
     
       // equivalent_id: 301
       // equivalent_count: 1
@@ -4013,7 +4537,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عنابة",
         wilaya_id: 23,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.80377,
+        longitude: 7.737
     
       // equivalent_id: 302
       // equivalent_count: 3
@@ -4029,7 +4555,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قالمة",
         wilaya_id: 24,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.372949,
+        longitude: 7.222816
     
       // equivalent_id: 310
       // equivalent_count: 1
@@ -4044,7 +4572,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قالمة",
         wilaya_id: 24,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.15,
+        longitude: 7.14154
     
       // equivalent_id: 304
       // equivalent_count: 2
@@ -4060,7 +4590,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قالمة",
         wilaya_id: 24,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.555833,
+        longitude: 7.713055
     
       // equivalent_id: 305
       // equivalent_count: 1
@@ -4075,7 +4607,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قالمة",
         wilaya_id: 24,
         new_2026: false,
-        commune_count: 6
+        commune_count: 6,
+        latitude: 36.611389,
+        longitude: 7.513333
     
       // equivalent_id: 306
       // equivalent_count: 1
@@ -4090,7 +4624,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قالمة",
         wilaya_id: 24,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.466,
+        longitude: 7.4206
     
       // equivalent_id: 303
       // equivalent_count: 1
@@ -4105,7 +4641,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قالمة",
         wilaya_id: 24,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.46277,
+        longitude: 7.116667
     
       // equivalent_id: 307
       // equivalent_count: 1
@@ -4120,7 +4658,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قالمة",
         wilaya_id: 24,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.351667,
+        longitude: 7.732778
     
       // equivalent_id: 308
       // equivalent_count: 1
@@ -4135,7 +4675,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قالمة",
         wilaya_id: 24,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.583333,
+        longitude: 7.333333
     
       // equivalent_id: 309
       // equivalent_count: 1
@@ -4150,7 +4692,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قالمة",
         wilaya_id: 24,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.24472222,
+        longitude: 7.5125
     
       // equivalent_id: 311
       // equivalent_count: 1
@@ -4165,7 +4709,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قالمة",
         wilaya_id: 24,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.3153,
+        longitude: 7.163889
     
       // equivalent_id: 312
       // equivalent_count: 1
@@ -4180,7 +4726,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قسنطينة",
         wilaya_id: 25,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.806388,
+        longitude: 6.8319511
     
       // equivalent_id: 314
       // equivalent_count: 1
@@ -4195,7 +4743,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قسنطينة",
         wilaya_id: 25,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 36.365,
+        longitude: 6.642433
     
       // equivalent_id: 313
       // equivalent_count: 1
@@ -4210,7 +4760,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قسنطينة",
         wilaya_id: 25,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.26333,
+        longitude: 6.69361
     
       // equivalent_id: 315
       // equivalent_count: 1
@@ -4225,7 +4777,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قسنطينة",
         wilaya_id: 25,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.41205,
+        longitude: 6.59603
     
       // equivalent_id: 316
       // equivalent_count: 1
@@ -4240,7 +4794,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قسنطينة",
         wilaya_id: 25,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.424444,
+        longitude: 6.4725
     
       // equivalent_id: 317
       // equivalent_count: 1
@@ -4255,7 +4811,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قسنطينة",
         wilaya_id: 25,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.53307,
+        longitude: 6.71238
     
       // equivalent_id: 318
       // equivalent_count: 1
@@ -4270,7 +4828,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المدية",
         wilaya_id: 26,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 35.872222,
+        longitude: 3.1585
     
       // equivalent_id: 320
       // equivalent_count: 1
@@ -4285,7 +4845,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المدية",
         wilaya_id: 26,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.191111,
+        longitude: 3.2361
     
       // equivalent_id: 322
       // equivalent_count: 1
@@ -4300,7 +4862,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المدية",
         wilaya_id: 26,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.112778,
+        longitude: 3.5167
     
       // equivalent_id: 323
       // equivalent_count: 1
@@ -4315,7 +4879,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المدية",
         wilaya_id: 26,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.94,
+        longitude: 3.4139
     
       // equivalent_id: 325
       // equivalent_count: 1
@@ -4330,7 +4896,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المدية",
         wilaya_id: 26,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.28656,
+        longitude: 3.49412
     
       // equivalent_id: 326
       // equivalent_count: 1
@@ -4345,7 +4913,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المدية",
         wilaya_id: 26,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.266667,
+        longitude: 3.03333
     
       // equivalent_id: 328
       // equivalent_count: 3
@@ -4361,7 +4931,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المدية",
         wilaya_id: 26,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.25499914,
+        longitude: 3.416579076
     
       // equivalent_id: 327
       // equivalent_count: 1
@@ -4376,7 +4948,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المدية",
         wilaya_id: 26,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.2675,
+        longitude: 2.75
     
       // equivalent_id: 319
       // equivalent_count: 1
@@ -4391,7 +4965,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المدية",
         wilaya_id: 26,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.233333,
+        longitude: 2.6333
     
       // equivalent_id: 330
       // equivalent_count: 1
@@ -4406,7 +4982,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المدية",
         wilaya_id: 26,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.9370104,
+        longitude: 2.4980197
     
       // equivalent_id: 331
       // equivalent_count: 2
@@ -4422,7 +5000,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المدية",
         wilaya_id: 26,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.25,
+        longitude: 3.0551
     
       // equivalent_id: 332
       // equivalent_count: 1
@@ -4437,7 +5017,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المدية",
         wilaya_id: 26,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.066667,
+        longitude: 2.9
     
       // equivalent_id: 333
       // equivalent_count: 1
@@ -4452,7 +5034,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المدية",
         wilaya_id: 26,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.160382,
+        longitude: 2.722206
     
       // equivalent_id: 334
       // equivalent_count: 1
@@ -4467,7 +5051,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المدية",
         wilaya_id: 26,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.252778,
+        longitude: 3.15861
     
       // equivalent_id: 335
       // equivalent_count: 2
@@ -4483,7 +5069,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المدية",
         wilaya_id: 26,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.419167,
+        longitude: 3.216111
     
       // equivalent_id: 337
       // equivalent_count: 1
@@ -4498,7 +5086,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "مستغانم",
         wilaya_id: 27,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.166667,
+        longitude: 0.616667
     
       // equivalent_id: 339
       // equivalent_count: 1
@@ -4513,7 +5103,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "مستغانم",
         wilaya_id: 27,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.75243,
+        longitude: -0.0169
     
       // equivalent_id: 340
       // equivalent_count: 1
@@ -4528,7 +5120,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "مستغانم",
         wilaya_id: 27,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.9947,
+        longitude: 0.2949
     
       // equivalent_id: 341
       // equivalent_count: 1
@@ -4543,7 +5137,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "مستغانم",
         wilaya_id: 27,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.7502319,
+        longitude: 0.2566146
     
       // equivalent_id: 342
       // equivalent_count: 1
@@ -4558,7 +5154,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "مستغانم",
         wilaya_id: 27,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.8307225,
+        longitude: 0
     
       // equivalent_id: 343
       // equivalent_count: 1
@@ -4573,7 +5171,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "مستغانم",
         wilaya_id: 27,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.9477561,
+        longitude: 0.12916667
     
       // equivalent_id: 344
       // equivalent_count: 1
@@ -4588,7 +5188,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "مستغانم",
         wilaya_id: 27,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.833056,
+        longitude: 0.13605
     
       // equivalent_id: 345
       // equivalent_count: 1
@@ -4603,7 +5205,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "مستغانم",
         wilaya_id: 27,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 35.9246589,
+        longitude: 0.09
     
       // equivalent_id: 338
       // equivalent_count: 1
@@ -4618,7 +5222,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "مستغانم",
         wilaya_id: 27,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.0967786,
+        longitude: 0.4148744
     
       // equivalent_id: 346
       // equivalent_count: 1
@@ -4633,7 +5239,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "مستغانم",
         wilaya_id: 27,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.1026171,
+        longitude: 0.2742
     
       // equivalent_id: 347
       // equivalent_count: 1
@@ -4648,7 +5256,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المسيلة",
         wilaya_id: 28,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.6746598,
+        longitude: 3.8821519
     
       // equivalent_id: 349
       // equivalent_count: 2
@@ -4664,7 +5274,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المسيلة",
         wilaya_id: 28,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 34.82,
+        longitude: 3.899444
     
       // equivalent_id: 350
       // equivalent_count: 1
@@ -4679,7 +5291,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المسيلة",
         wilaya_id: 28,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.219167,
+        longitude: 4.17402
     
       // equivalent_id: 352
       // equivalent_count: 1
@@ -4694,7 +5308,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المسيلة",
         wilaya_id: 28,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.516667,
+        longitude: 4.383333
     
       // equivalent_id: 353
       // equivalent_count: 2
@@ -4710,7 +5326,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المسيلة",
         wilaya_id: 28,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.85,
+        longitude: 4.37445
     
       // equivalent_id: 355
       // equivalent_count: 1
@@ -4725,7 +5343,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المسيلة",
         wilaya_id: 28,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 35.71,
+        longitude: 4.5472
     
       // equivalent_id: 348
       // equivalent_count: 2
@@ -4741,7 +5361,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المسيلة",
         wilaya_id: 28,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 35.617778,
+        longitude: 5.1074
     
       // equivalent_id: 357
       // equivalent_count: 2
@@ -4757,7 +5379,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المسيلة",
         wilaya_id: 28,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.25,
+        longitude: 3.805278
     
       // equivalent_id: 358
       // equivalent_count: 1
@@ -4772,7 +5396,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المسيلة",
         wilaya_id: 28,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 35.8667,
+        longitude: 4.795556
     
       // equivalent_id: 359
       // equivalent_count: 1
@@ -4787,7 +5413,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المسيلة",
         wilaya_id: 28,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.88638889,
+        longitude: 3.77236
     
       // equivalent_id: 361
       // equivalent_count: 1
@@ -4802,7 +5430,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "معسكر",
         wilaya_id: 29,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.4799,
+        longitude: 0.2449
     
       // equivalent_id: 364
       // equivalent_count: 2
@@ -4818,7 +5448,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "معسكر",
         wilaya_id: 29,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.2153,
+        longitude: -0.0016
     
       // equivalent_id: 365
       // equivalent_count: 1
@@ -4833,7 +5465,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "معسكر",
         wilaya_id: 29,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.21222,
+        longitude: 0.1397222
     
       // equivalent_id: 366
       // equivalent_count: 1
@@ -4848,7 +5482,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "معسكر",
         wilaya_id: 29,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.316111,
+        longitude: -0.048333333
     
       // equivalent_id: 367
       // equivalent_count: 1
@@ -4863,7 +5499,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "معسكر",
         wilaya_id: 29,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.515833,
+        longitude: 0.3017
     
       // equivalent_id: 368
       // equivalent_count: 2
@@ -4879,7 +5517,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "معسكر",
         wilaya_id: 29,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 35.3129898,
+        longitude: 0.2025
     
       // equivalent_id: 370
       // equivalent_count: 1
@@ -4894,7 +5534,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "معسكر",
         wilaya_id: 29,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.366667,
+        longitude: 0.15
     
       // equivalent_id: 369
       // equivalent_count: 1
@@ -4909,7 +5551,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "معسكر",
         wilaya_id: 29,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 35.4,
+        longitude: 0.133333
     
       // equivalent_id: 363
       // equivalent_count: 1
@@ -4924,7 +5568,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "معسكر",
         wilaya_id: 29,
         new_2026: false,
-        commune_count: 6
+        commune_count: 6,
+        latitude: 35.58839,
+        longitude: 0.0667
     
       // equivalent_id: 371
       // equivalent_count: 3
@@ -4940,7 +5586,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "معسكر",
         wilaya_id: 29,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.566667,
+        longitude: -0.25967
     
       // equivalent_id: 372
       // equivalent_count: 1
@@ -4955,7 +5603,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "معسكر",
         wilaya_id: 29,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.455952,
+        longitude: 0.688
     
       // equivalent_id: 373
       // equivalent_count: 1
@@ -4970,7 +5620,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "معسكر",
         wilaya_id: 29,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.1130905,
+        longitude: 0.0910316
     
       // equivalent_id: 374
       // equivalent_count: 1
@@ -4985,7 +5637,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "معسكر",
         wilaya_id: 29,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.5283,
+        longitude: -0.192778
     
       // equivalent_id: 375
       // equivalent_count: 1
@@ -5000,7 +5654,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "معسكر",
         wilaya_id: 29,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.4143144,
+        longitude: 0.3292328
     
       // equivalent_id: 376
       // equivalent_count: 2
@@ -5016,7 +5672,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "معسكر",
         wilaya_id: 29,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.31603,
+        longitude: 0.1542151
     
       // equivalent_id: 377
       // equivalent_count: 1
@@ -5031,7 +5689,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "معسكر",
         wilaya_id: 29,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.53333333,
+        longitude: -0.183333333
     
       // equivalent_id: 378
       // equivalent_count: 1
@@ -5046,7 +5706,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ورقلة",
         wilaya_id: 30,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 31.656389,
+        longitude: 9.179167
     
       // equivalent_id: 380
       // equivalent_count: 2
@@ -5062,7 +5724,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ورقلة",
         wilaya_id: 30,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 32.6130464,
+        longitude: 5.51259
     
       // equivalent_id: 381
       // equivalent_count: 2
@@ -5078,7 +5742,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ورقلة",
         wilaya_id: 30,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 31.7019,
+        longitude: 6.073
     
       // equivalent_id: 382
       // equivalent_count: 1
@@ -5093,7 +5759,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ورقلة",
         wilaya_id: 30,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 33.288889,
+        longitude: 6.094444
     
       // equivalent_id: 383
       // equivalent_count: 3
@@ -5109,7 +5777,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ورقلة",
         wilaya_id: 30,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 32.141111,
+        longitude: 5.3096
     
       // equivalent_id: 384
       // equivalent_count: 1
@@ -5124,7 +5794,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ورقلة",
         wilaya_id: 30,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 31.95,
+        longitude: 5.3167
     
       // equivalent_id: 379
       // equivalent_count: 1
@@ -5139,7 +5811,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ورقلة",
         wilaya_id: 30,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 31.9377,
+        longitude: 5.39954
     
       // equivalent_id: 385
       // equivalent_count: 2
@@ -5155,7 +5829,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ورقلة",
         wilaya_id: 30,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 33.0829494,
+        longitude: 6.3997501
     
       // equivalent_id: 386
       // equivalent_count: 1
@@ -5170,7 +5846,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ورقلة",
         wilaya_id: 30,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 33.12,
+        longitude: 6.08333
     
       // equivalent_id: 388
       // equivalent_count: 1
@@ -5185,7 +5863,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "وهران",
         wilaya_id: 31,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.74494,
+        longitude: -0.7697
     
       // equivalent_id: 390
       // equivalent_count: 2
@@ -5201,7 +5881,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "وهران",
         wilaya_id: 31,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.85048,
+        longitude: -0.3167
     
       // equivalent_id: 391
       // equivalent_count: 1
@@ -5216,7 +5898,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "وهران",
         wilaya_id: 31,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.805837,
+        longitude: -0.2596
     
       // equivalent_id: 392
       // equivalent_count: 1
@@ -5231,7 +5915,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "وهران",
         wilaya_id: 31,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.7368,
+        longitude: -0.545
     
       // equivalent_id: 393
       // equivalent_count: 1
@@ -5246,7 +5932,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "وهران",
         wilaya_id: 31,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.6455611,
+        longitude: -0.7722974
     
       // equivalent_id: 394
       // equivalent_count: 1
@@ -5261,7 +5949,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "وهران",
         wilaya_id: 31,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.6478,
+        longitude: -0.6241804
     
       // equivalent_id: 395
       // equivalent_count: 2
@@ -5277,7 +5967,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "وهران",
         wilaya_id: 31,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.8052667,
+        longitude: -0.423746
     
       // equivalent_id: 396
       // equivalent_count: 1
@@ -5292,7 +5984,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "وهران",
         wilaya_id: 31,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 35.70833333,
+        longitude: -0.6331
     
       // equivalent_id: 389
       // equivalent_count: 1
@@ -5307,7 +6001,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "وهران",
         wilaya_id: 31,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.5519239,
+        longitude: -0.4522604
     
       // equivalent_id: 397
       // equivalent_count: 1
@@ -5322,7 +6018,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البيض",
         wilaya_id: 32,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 33.75805556,
+        longitude: 1.223333333
     
       // equivalent_id: 399
       // equivalent_count: 2
@@ -5338,7 +6036,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البيض",
         wilaya_id: 32,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.1436111,
+        longitude: 0.033333
     
       // equivalent_id: 400
       // equivalent_count: 2
@@ -5354,7 +6054,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البيض",
         wilaya_id: 32,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.216667,
+        longitude: 0.0556
     
       // equivalent_id: 403
       // equivalent_count: 2
@@ -5370,7 +6072,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البيض",
         wilaya_id: 32,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 33.7216667,
+        longitude: 1.020278
     
       // equivalent_id: 398
       // equivalent_count: 1
@@ -5385,7 +6089,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "البيض",
         wilaya_id: 32,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.0188896,
+        longitude: 0.9271367
     
       // equivalent_id: 405
       // equivalent_count: 1
@@ -5400,7 +6106,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "إليزي",
         wilaya_id: 33,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 29.96710797,
+        longitude: 9.422727425
     
       // equivalent_id: 408
       // equivalent_count: 1
@@ -5415,7 +6123,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "إليزي",
         wilaya_id: 33,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 26.483333,
+        longitude: 8.483333333
     
       // equivalent_id: 406
       // equivalent_count: 1
@@ -5430,7 +6140,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "برج بوعريريج",
         wilaya_id: 34,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.128889,
+        longitude: 5.076667
     
       // equivalent_id: 410
       // equivalent_count: 2
@@ -5446,7 +6158,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "برج بوعريريج",
         wilaya_id: 34,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.1039,
+        longitude: 4.91188
     
       // equivalent_id: 411
       // equivalent_count: 1
@@ -5461,7 +6175,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "برج بوعريريج",
         wilaya_id: 34,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 36.0704188,
+        longitude: 4.766667
     
       // equivalent_id: 409
       // equivalent_count: 1
@@ -5476,7 +6192,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "برج بوعريريج",
         wilaya_id: 34,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 35.8991893,
+        longitude: 4.899182
     
       // equivalent_id: 412
       // equivalent_count: 1
@@ -5491,7 +6209,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "برج بوعريريج",
         wilaya_id: 34,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.2677309,
+        longitude: 4.855833333
     
       // equivalent_id: 413
       // equivalent_count: 1
@@ -5506,7 +6226,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "برج بوعريريج",
         wilaya_id: 34,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.2922699,
+        longitude: 4.6628371
     
       // equivalent_id: 414
       // equivalent_count: 1
@@ -5521,7 +6243,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "برج بوعريريج",
         wilaya_id: 34,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.976944,
+        longitude: 4.7475
     
       // equivalent_id: 415
       // equivalent_count: 5
@@ -5537,7 +6261,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "برج بوعريريج",
         wilaya_id: 34,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 36.08725,
+        longitude: 4.46
     
       // equivalent_id: 164
       // equivalent_count: 3
@@ -5553,7 +6279,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "برج بوعريريج",
         wilaya_id: 34,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.06386,
+        longitude: 4.6167
     
       // equivalent_id: 417
       // equivalent_count: 1
@@ -5568,7 +6296,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "برج بوعريريج",
         wilaya_id: 34,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.94972222,
+        longitude: 5.033333333
     
       // equivalent_id: 418
       // equivalent_count: 2
@@ -5584,7 +6314,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بومرداس",
         wilaya_id: 35,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.81694,
+        longitude: 3.8757119
     
       // equivalent_id: 420
       // equivalent_count: 3
@@ -5600,7 +6332,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بومرداس",
         wilaya_id: 35,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.741667,
+        longitude: 3.7175665
     
       // equivalent_id: 421
       // equivalent_count: 1
@@ -5615,7 +6349,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بومرداس",
         wilaya_id: 35,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 36.72735,
+        longitude: 3.40995
     
       // equivalent_id: 422
       // equivalent_count: 1
@@ -5630,7 +6366,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بومرداس",
         wilaya_id: 35,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.766,
+        longitude: 3.477
     
       // equivalent_id: 419
       // equivalent_count: 1
@@ -5645,7 +6383,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بومرداس",
         wilaya_id: 35,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.7675,
+        longitude: 3.702778
     
       // equivalent_id: 423
       // equivalent_count: 1
@@ -5660,7 +6400,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بومرداس",
         wilaya_id: 35,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.706667,
+        longitude: 3.671389
     
       // equivalent_id: 424
       // equivalent_count: 1
@@ -5675,7 +6417,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بومرداس",
         wilaya_id: 35,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.6857409,
+        longitude: 3.3892894
     
       // equivalent_id: 425
       // equivalent_count: 1
@@ -5690,7 +6434,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بومرداس",
         wilaya_id: 35,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.7475,
+        longitude: 3.833333
     
       // equivalent_id: 426
       // equivalent_count: 2
@@ -5706,7 +6452,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بومرداس",
         wilaya_id: 35,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.7254,
+        longitude: 3.553889
     
       // equivalent_id: 427
       // equivalent_count: 1
@@ -5721,7 +6469,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الطارف",
         wilaya_id: 36,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.77501471,
+        longitude: 7.905594528
     
       // equivalent_id: 429
       // equivalent_count: 1
@@ -5736,7 +6486,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الطارف",
         wilaya_id: 36,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.702222,
+        longitude: 7.847222
     
       // equivalent_id: 430
       // equivalent_count: 1
@@ -5751,7 +6503,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الطارف",
         wilaya_id: 36,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.5034174,
+        longitude: 8.110556
     
       // equivalent_id: 431
       // equivalent_count: 1
@@ -5766,7 +6520,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الطارف",
         wilaya_id: 36,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.85,
+        longitude: 8.2024232
     
       // equivalent_id: 432
       // equivalent_count: 1
@@ -5781,7 +6537,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الطارف",
         wilaya_id: 36,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.68333333,
+        longitude: 7.75
     
       // equivalent_id: 433
       // equivalent_count: 1
@@ -5796,7 +6554,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الطارف",
         wilaya_id: 36,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.8956,
+        longitude: 8.4433
     
       // equivalent_id: 434
       // equivalent_count: 2
@@ -5812,7 +6572,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الطارف",
         wilaya_id: 36,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.7667186,
+        longitude: 8.317
     
       // equivalent_id: 428
       // equivalent_count: 1
@@ -5827,7 +6589,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تندوف",
         wilaya_id: 37,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 27.670556,
+        longitude: -8.12724
     
       // equivalent_id: 435
       // equivalent_count: 1
@@ -5842,7 +6606,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيسمسيلت",
         wilaya_id: 38,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.5771,
+        longitude: 1.6623
     
       // equivalent_id: 437
       // equivalent_count: 1
@@ -5857,7 +6623,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيسمسيلت",
         wilaya_id: 38,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.8505025,
+        longitude: 1.6170851
     
       // equivalent_id: 438
       // equivalent_count: 1
@@ -5872,7 +6640,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيسمسيلت",
         wilaya_id: 38,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.8652978,
+        longitude: 2.2674341
     
       // equivalent_id: 439
       // equivalent_count: 1
@@ -5887,7 +6657,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيسمسيلت",
         wilaya_id: 38,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.6967,
+        longitude: 1.99664
     
       // equivalent_id: 440
       // equivalent_count: 1
@@ -5902,7 +6674,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيسمسيلت",
         wilaya_id: 38,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.7495,
+        longitude: 1.5485
     
       // equivalent_id: 441
       // equivalent_count: 1
@@ -5917,7 +6691,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيسمسيلت",
         wilaya_id: 38,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.93722222,
+        longitude: 1.56
     
       // equivalent_id: 442
       // equivalent_count: 2
@@ -5933,7 +6709,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيسمسيلت",
         wilaya_id: 38,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.87111,
+        longitude: 2.01670828
     
       // equivalent_id: 443
       // equivalent_count: 1
@@ -5948,7 +6726,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيسمسيلت",
         wilaya_id: 38,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.60722,
+        longitude: 1.8108
     
       // equivalent_id: 436
       // equivalent_count: 1
@@ -5963,7 +6743,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الوادي",
         wilaya_id: 39,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 33.334444,
+        longitude: 6.8885733
     
       // equivalent_id: 445
       // equivalent_count: 1
@@ -5978,7 +6760,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الوادي",
         wilaya_id: 39,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 33.51667,
+        longitude: 6.95
     
       // equivalent_id: 446
       // equivalent_count: 2
@@ -5994,7 +6778,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الوادي",
         wilaya_id: 39,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 33.36111111,
+        longitude: 6.8605556
     
       // equivalent_id: 444
       // equivalent_count: 1
@@ -6009,7 +6795,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الوادي",
         wilaya_id: 39,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 33.5,
+        longitude: 6.7977914
     
       // equivalent_id: 449
       // equivalent_count: 1
@@ -6024,7 +6812,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الوادي",
         wilaya_id: 39,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 33.562222,
+        longitude: 6.990278
     
       // equivalent_id: 450
       // equivalent_count: 1
@@ -6039,7 +6829,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الوادي",
         wilaya_id: 39,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 33.54212,
+        longitude: 6.905
     
       // equivalent_id: 451
       // equivalent_count: 2
@@ -6055,7 +6847,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الوادي",
         wilaya_id: 39,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 33.228889,
+        longitude: 6.757222
     
       // equivalent_id: 452
       // equivalent_count: 1
@@ -6070,7 +6864,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الوادي",
         wilaya_id: 39,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 33.56391,
+        longitude: 6.703
     
       // equivalent_id: 453
       // equivalent_count: 2
@@ -6086,7 +6882,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الوادي",
         wilaya_id: 39,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 33.281111,
+        longitude: 6.4166705
     
       // equivalent_id: 454
       // equivalent_count: 1
@@ -6101,7 +6899,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الوادي",
         wilaya_id: 39,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 33.7275,
+        longitude: 7.517222
     
       // equivalent_id: 455
       // equivalent_count: 1
@@ -6116,7 +6916,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "خنشلة",
         wilaya_id: 40,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.599444,
+        longitude: 7.24497
     
       // equivalent_id: 457
       // equivalent_count: 2
@@ -6132,7 +6934,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "خنشلة",
         wilaya_id: 40,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 35.1691777,
+        longitude: 7.104722
     
       // equivalent_id: 458
       // equivalent_count: 2
@@ -6148,7 +6952,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "خنشلة",
         wilaya_id: 40,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.320278,
+        longitude: 6.7466351
     
       // equivalent_id: 459
       // equivalent_count: 1
@@ -6163,7 +6969,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "خنشلة",
         wilaya_id: 40,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 34.915833,
+        longitude: 6.680556
     
       // equivalent_id: 460
       // equivalent_count: 2
@@ -6179,7 +6987,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "خنشلة",
         wilaya_id: 40,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.521944,
+        longitude: 7.114444
     
       // equivalent_id: 461
       // equivalent_count: 2
@@ -6195,7 +7005,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "خنشلة",
         wilaya_id: 40,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.4946392,
+        longitude: 6.924305
     
       // equivalent_id: 462
       // equivalent_count: 1
@@ -6210,7 +7022,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "خنشلة",
         wilaya_id: 40,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 35.4358,
+        longitude: 7.1433
     
       // equivalent_id: 456
       // equivalent_count: 1
@@ -6225,7 +7039,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "خنشلة",
         wilaya_id: 40,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.3,
+        longitude: 7.353056
     
       // equivalent_id: 463
       // equivalent_count: 1
@@ -6240,7 +7056,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سوق أهراس",
         wilaya_id: 41,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.165611,
+        longitude: 7.4667
     
       // equivalent_id: 465
       // equivalent_count: 1
@@ -6255,7 +7073,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سوق أهراس",
         wilaya_id: 41,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.23083333,
+        longitude: 8.2725
     
       // equivalent_id: 466
       // equivalent_count: 1
@@ -6270,7 +7090,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سوق أهراس",
         wilaya_id: 41,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.191667,
+        longitude: 7.786111
     
       // equivalent_id: 467
       // equivalent_count: 1
@@ -6285,7 +7107,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سوق أهراس",
         wilaya_id: 41,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.19119,
+        longitude: 7.887778
     
       // equivalent_id: 468
       // equivalent_count: 1
@@ -6300,7 +7124,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سوق أهراس",
         wilaya_id: 41,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.1975,
+        longitude: 8.155
     
       // equivalent_id: 469
       // equivalent_count: 1
@@ -6315,7 +7141,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سوق أهراس",
         wilaya_id: 41,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.35,
+        longitude: 8.0167
     
       // equivalent_id: 470
       // equivalent_count: 1
@@ -6330,7 +7158,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سوق أهراس",
         wilaya_id: 41,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.033889,
+        longitude: 7.6025
     
       // equivalent_id: 471
       // equivalent_count: 1
@@ -6345,7 +7175,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سوق أهراس",
         wilaya_id: 41,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.129,
+        longitude: 7.534
     
       // equivalent_id: 472
       // equivalent_count: 1
@@ -6360,7 +7192,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سوق أهراس",
         wilaya_id: 41,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 36.286389,
+        longitude: 7.950833333
     
       // equivalent_id: 464
       // equivalent_count: 1
@@ -6375,7 +7209,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "سوق أهراس",
         wilaya_id: 41,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.227222,
+        longitude: 7.957778
     
       // equivalent_id: 473
       // equivalent_count: 1
@@ -6390,7 +7226,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيبازة",
         wilaya_id: 42,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.4858595,
+        longitude: 2.4764
     
       // equivalent_id: 475
       // equivalent_count: 1
@@ -6405,7 +7243,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيبازة",
         wilaya_id: 42,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.625833,
+        longitude: 2.680833333
     
       // equivalent_id: 476
       // equivalent_count: 1
@@ -6420,7 +7260,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيبازة",
         wilaya_id: 42,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.605,
+        longitude: 2.19083
     
       // equivalent_id: 477
       // equivalent_count: 1
@@ -6435,7 +7277,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيبازة",
         wilaya_id: 42,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.558,
+        longitude: 1.801388889
     
       // equivalent_id: 478
       // equivalent_count: 1
@@ -6450,7 +7294,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيبازة",
         wilaya_id: 42,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.6737396,
+        longitude: 2.783333
     
       // equivalent_id: 479
       // equivalent_count: 1
@@ -6465,7 +7311,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيبازة",
         wilaya_id: 42,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.502778,
+        longitude: 1.845833
     
       // equivalent_id: 480
       // equivalent_count: 1
@@ -6480,7 +7328,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيبازة",
         wilaya_id: 42,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.51257,
+        longitude: 2.4142888
     
       // equivalent_id: 481
       // equivalent_count: 1
@@ -6495,7 +7345,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيبازة",
         wilaya_id: 42,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.6251,
+        longitude: 2.729167
     
       // equivalent_id: 482
       // equivalent_count: 1
@@ -6510,7 +7362,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيبازة",
         wilaya_id: 42,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.492,
+        longitude: 2.240556
     
       // equivalent_id: 483
       // equivalent_count: 2
@@ -6526,7 +7380,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيبازة",
         wilaya_id: 42,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 36.591944,
+        longitude: 2.443
     
       // equivalent_id: 474
       // equivalent_count: 1
@@ -6541,7 +7397,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ميلة",
         wilaya_id: 43,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.440278,
+        longitude: 5.9130761
     
       // equivalent_id: 485
       // equivalent_count: 1
@@ -6556,7 +7414,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ميلة",
         wilaya_id: 43,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.303889,
+        longitude: 6.0141667
     
       // equivalent_id: 486
       // equivalent_count: 2
@@ -6572,7 +7432,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ميلة",
         wilaya_id: 43,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.1629822,
+        longitude: 6.616667
     
       // equivalent_id: 487
       // equivalent_count: 1
@@ -6587,7 +7449,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ميلة",
         wilaya_id: 43,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.4073812,
+        longitude: 5.9419603
     
       // equivalent_id: 488
       // equivalent_count: 1
@@ -6602,7 +7466,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ميلة",
         wilaya_id: 43,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.5167,
+        longitude: 6.33333
     
       // equivalent_id: 489
       // equivalent_count: 1
@@ -6617,7 +7483,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ميلة",
         wilaya_id: 43,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.4503,
+        longitude: 6.2644
     
       // equivalent_id: 484
       // equivalent_count: 2
@@ -6633,7 +7501,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ميلة",
         wilaya_id: 43,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.5,
+        longitude: 6.120833
     
       // equivalent_id: 490
       // equivalent_count: 1
@@ -6648,7 +7518,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ميلة",
         wilaya_id: 43,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.4667623,
+        longitude: 6.0396
     
       // equivalent_id: 491
       // equivalent_count: 1
@@ -6663,7 +7535,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ميلة",
         wilaya_id: 43,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.521667,
+        longitude: 6.2625
     
       // equivalent_id: 492
       // equivalent_count: 1
@@ -6678,7 +7552,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ميلة",
         wilaya_id: 43,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.12129,
+        longitude: 5.9867
     
       // equivalent_id: 493
       // equivalent_count: 1
@@ -6693,7 +7569,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ميلة",
         wilaya_id: 43,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.52269,
+        longitude: 5.8787288
     
       // equivalent_id: 494
       // equivalent_count: 1
@@ -6708,7 +7586,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ميلة",
         wilaya_id: 43,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.1180204,
+        longitude: 6.364167
     
       // equivalent_id: 495
       // equivalent_count: 1
@@ -6723,7 +7603,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "ميلة",
         wilaya_id: 43,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.495833,
+        longitude: 6.32488
     
       // equivalent_id: 496
       // equivalent_count: 1
@@ -6738,7 +7620,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين الدفلى",
         wilaya_id: 44,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 36.2652,
+        longitude: 1.9703
     
       // equivalent_id: 497
       // equivalent_count: 2
@@ -6754,7 +7638,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين الدفلى",
         wilaya_id: 44,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.15694444,
+        longitude: 2.404167
     
       // equivalent_id: 498
       // equivalent_count: 1
@@ -6769,7 +7655,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين الدفلى",
         wilaya_id: 44,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.0333333,
+        longitude: 1.933611
     
       // equivalent_id: 499
       // equivalent_count: 2
@@ -6785,7 +7673,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين الدفلى",
         wilaya_id: 44,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.183333,
+        longitude: 2.2333333
     
       // equivalent_id: 500
       // equivalent_count: 1
@@ -6800,7 +7690,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين الدفلى",
         wilaya_id: 44,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.370278,
+        longitude: 2.47639
     
       // equivalent_id: 501
       // equivalent_count: 1
@@ -6815,7 +7707,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين الدفلى",
         wilaya_id: 44,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.2,
+        longitude: 2.083333333
     
       // equivalent_id: 502
       // equivalent_count: 3
@@ -6831,7 +7725,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين الدفلى",
         wilaya_id: 44,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.218611,
+        longitude: 2.4137
     
       // equivalent_id: 503
       // equivalent_count: 1
@@ -6846,7 +7742,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين الدفلى",
         wilaya_id: 44,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.2706026,
+        longitude: 1.6854432
     
       // equivalent_id: 504
       // equivalent_count: 2
@@ -6862,7 +7760,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين الدفلى",
         wilaya_id: 44,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.2919441,
+        longitude: 2.133611
     
       // equivalent_id: 505
       // equivalent_count: 3
@@ -6878,7 +7778,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين الدفلى",
         wilaya_id: 44,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.22393,
+        longitude: 1.672
     
       // equivalent_id: 506
       // equivalent_count: 1
@@ -6893,7 +7795,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين الدفلى",
         wilaya_id: 44,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.3915345,
+        longitude: 2.395618
     
       // equivalent_id: 507
       // equivalent_count: 1
@@ -6908,7 +7812,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين الدفلى",
         wilaya_id: 44,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.261,
+        longitude: 2.220167
     
       // equivalent_id: 440
       // equivalent_count: 1
@@ -6923,7 +7829,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين الدفلى",
         wilaya_id: 44,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.3055,
+        longitude: 2.2325912
     
       // equivalent_id: 509
       // equivalent_count: 1
@@ -6938,7 +7846,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين الدفلى",
         wilaya_id: 44,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.25,
+        longitude: 1.816667
     
       // equivalent_id: 510
       // equivalent_count: 4
@@ -6954,7 +7864,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "النعامة",
         wilaya_id: 45,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 32.75,
+        longitude: -0.5833
     
       // equivalent_id: 512
       // equivalent_count: 2
@@ -6970,7 +7882,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "النعامة",
         wilaya_id: 45,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 33.016667,
+        longitude: -0.083333333
     
       // equivalent_id: 513
       // equivalent_count: 1
@@ -6985,7 +7899,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "النعامة",
         wilaya_id: 45,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 33.54453,
+        longitude: -0.2812
     
       // equivalent_id: 515
       // equivalent_count: 2
@@ -7001,7 +7917,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "النعامة",
         wilaya_id: 45,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 33.7189056,
+        longitude: -0.7271479
     
       // equivalent_id: 514
       // equivalent_count: 1
@@ -7016,7 +7934,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "النعامة",
         wilaya_id: 45,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 32.51229,
+        longitude: -0.58816
     
       // equivalent_id: 516
       // equivalent_count: 1
@@ -7031,7 +7951,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "النعامة",
         wilaya_id: 45,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 33.2667,
+        longitude: -0.3167
     
       // equivalent_id: 511
       // equivalent_count: 1
@@ -7046,7 +7968,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "النعامة",
         wilaya_id: 45,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 32.733333,
+        longitude: -0.868889
     
       // equivalent_id: 517
       // equivalent_count: 2
@@ -7062,7 +7986,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين تموشنت",
         wilaya_id: 46,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.2,
+        longitude: -1.069167
     
       // equivalent_id: 520
       // equivalent_count: 1
@@ -7077,7 +8003,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين تموشنت",
         wilaya_id: 46,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.4075,
+        longitude: -0.881667
     
       // equivalent_id: 519
       // equivalent_count: 1
@@ -7092,7 +8020,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين تموشنت",
         wilaya_id: 46,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.297,
+        longitude: -1.133333
     
       // equivalent_id: 518
       // equivalent_count: 1
@@ -7107,7 +8037,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين تموشنت",
         wilaya_id: 46,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.3004743,
+        longitude: -1.382036
     
       // equivalent_id: 521
       // equivalent_count: 1
@@ -7122,7 +8054,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين تموشنت",
         wilaya_id: 46,
         new_2026: false,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 35.57456,
+        longitude: -1.10424
     
       // equivalent_id: 522
       // equivalent_count: 3
@@ -7138,7 +8072,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين تموشنت",
         wilaya_id: 46,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.33619,
+        longitude: -1.1015
     
       // equivalent_id: 523
       // equivalent_count: 1
@@ -7153,7 +8089,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين تموشنت",
         wilaya_id: 46,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.37889,
+        longitude: -0.970488
     
       // equivalent_id: 524
       // equivalent_count: 1
@@ -7168,7 +8106,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين تموشنت",
         wilaya_id: 46,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.233056,
+        longitude: -1.504444
     
       // equivalent_id: 525
       // equivalent_count: 1
@@ -7183,7 +8123,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غرداية",
         wilaya_id: 47,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 32.82648,
+        longitude: 3.766667
     
       // equivalent_id: 527
       // equivalent_count: 1
@@ -7198,7 +8140,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غرداية",
         wilaya_id: 47,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 32.4825,
+        longitude: 3.70771
     
       // equivalent_id: 528
       // equivalent_count: 1
@@ -7213,7 +8157,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غرداية",
         wilaya_id: 47,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 32.536944,
+        longitude: 3.605556
     
       // equivalent_id: 529
       // equivalent_count: 1
@@ -7228,7 +8174,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غرداية",
         wilaya_id: 47,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 32.790278,
+        longitude: 4.4882869
     
       // equivalent_id: 530
       // equivalent_count: 1
@@ -7243,7 +8191,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غرداية",
         wilaya_id: 47,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 32.4833,
+        longitude: 3.6667
     
       // equivalent_id: 526
       // equivalent_count: 1
@@ -7258,7 +8208,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غرداية",
         wilaya_id: 47,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 31.979444,
+        longitude: 3.7459731
     
       // equivalent_id: 164
       // equivalent_count: 3
@@ -7274,7 +8226,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غرداية",
         wilaya_id: 47,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 32.26667,
+        longitude: 3.63333
     
       // equivalent_id: 533
       // equivalent_count: 1
@@ -7289,7 +8243,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غرداية",
         wilaya_id: 47,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 32.4,
+        longitude: 4.2167
     
       // equivalent_id: 534
       // equivalent_count: 1
@@ -7304,7 +8260,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غليزان",
         wilaya_id: 48,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.781388,
+        longitude: 1.1302226
     
       // equivalent_id: 536
       // equivalent_count: 3
@@ -7320,7 +8278,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غليزان",
         wilaya_id: 48,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.8266,
+        longitude: 0.961111
     
       // equivalent_id: 537
       // equivalent_count: 1
@@ -7335,7 +8295,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غليزان",
         wilaya_id: 48,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.93,
+        longitude: 0.816667
     
       // equivalent_id: 538
       // equivalent_count: 1
@@ -7350,7 +8312,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غليزان",
         wilaya_id: 48,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.9,
+        longitude: 0.774675
     
       // equivalent_id: 539
       // equivalent_count: 2
@@ -7366,7 +8330,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غليزان",
         wilaya_id: 48,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.8247,
+        longitude: 0.577778
     
       // equivalent_id: 540
       // equivalent_count: 1
@@ -7381,7 +8347,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غليزان",
         wilaya_id: 48,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.19112,
+        longitude: 0.8160086
     
       // equivalent_id: 541
       // equivalent_count: 2
@@ -7397,7 +8365,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غليزان",
         wilaya_id: 48,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.6462,
+        longitude: 0.775
     
       // equivalent_id: 542
       // equivalent_count: 1
@@ -7412,7 +8382,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غليزان",
         wilaya_id: 48,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.96111111,
+        longitude: 0.9167
     
       // equivalent_id: 543
       // equivalent_count: 1
@@ -7427,7 +8399,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غليزان",
         wilaya_id: 48,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.866667,
+        longitude: 1.283333333
     
       // equivalent_id: 544
       // equivalent_count: 1
@@ -7442,7 +8416,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غليزان",
         wilaya_id: 48,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.7333,
+        longitude: 0.5588787
     
       // equivalent_id: 535
       // equivalent_count: 1
@@ -7457,7 +8433,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غليزان",
         wilaya_id: 48,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 36.14472222,
+        longitude: 0.843056
     
       // equivalent_id: 545
       // equivalent_count: 1
@@ -7472,7 +8450,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غليزان",
         wilaya_id: 48,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.677778,
+        longitude: 0.342222
     
       // equivalent_id: 546
       // equivalent_count: 1
@@ -7487,7 +8467,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "غليزان",
         wilaya_id: 48,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.7225,
+        longitude: 0.75
     
       // equivalent_id: 547
       // equivalent_count: 1
@@ -7502,7 +8484,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيميمون",
         wilaya_id: 49,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 28.702778,
+        longitude: 0.15
     
       // equivalent_id: 2
       // equivalent_count: 1
@@ -7517,7 +8501,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيميمون",
         wilaya_id: 49,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 29.018611,
+        longitude: -0.257778
     
       // equivalent_id: 5
       // equivalent_count: 1
@@ -7532,7 +8518,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيميمون",
         wilaya_id: 49,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 29.25,
+        longitude: 0.2285923
     
       // equivalent_id: 8
       // equivalent_count: 1
@@ -7547,7 +8535,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تيميمون",
         wilaya_id: 49,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 29.5784908,
+        longitude: 0.3739728
     
       // equivalent_id: 9
       // equivalent_count: 1
@@ -7562,7 +8552,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "برج باجي مختار",
         wilaya_id: 50,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 21.3292442,
+        longitude: 0.954167
     
       // equivalent_id: 4
       // equivalent_count: 1
@@ -7577,7 +8569,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أولاد جلال",
         wilaya_id: 51,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.4254103,
+        longitude: 5.0644342
     
       // equivalent_id: 93
       // equivalent_count: 1
@@ -7592,7 +8586,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أولاد جلال",
         wilaya_id: 51,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.15,
+        longitude: 4.983333
     
       // equivalent_id: 95
       // equivalent_count: 3
@@ -7608,7 +8604,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بني عباس",
         wilaya_id: 52,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 30.08,
+        longitude: -2.17
     
       // equivalent_id: 101
       // equivalent_count: 1
@@ -7623,7 +8621,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بني عباس",
         wilaya_id: 52,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 29.86224,
+        longitude: -1.82751
     
       // equivalent_id: 103
       // equivalent_count: 3
@@ -7639,7 +8639,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بني عباس",
         wilaya_id: 52,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 30.26666667,
+        longitude: -2.2778396
     
       // equivalent_id: 104
       // equivalent_count: 1
@@ -7654,7 +8656,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بني عباس",
         wilaya_id: 52,
         new_2026: false,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 29.40611111,
+        longitude: -1.428333333
     
       // equivalent_id: 106
       // equivalent_count: 1
@@ -7669,7 +8673,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بني عباس",
         wilaya_id: 52,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 29.248889,
+        longitude: -1.05748
     
       // equivalent_id: 108
       // equivalent_count: 1
@@ -7684,7 +8690,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين صالح",
         wilaya_id: 53,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 27.2,
+        longitude: 2.511111
     
       // equivalent_id: 135
       // equivalent_count: 1
@@ -7699,7 +8707,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين صالح",
         wilaya_id: 53,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 27.1935,
+        longitude: 2.483333
     
       // equivalent_id: 137
       // equivalent_count: 1
@@ -7714,7 +8724,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين قزام",
         wilaya_id: 54,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 19.5696707,
+        longitude: 5.76806
     
       // equivalent_id: 136
       // equivalent_count: 1
@@ -7729,7 +8741,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين قزام",
         wilaya_id: 54,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 19.953333,
+        longitude: 2.966667
     
       // equivalent_id: 139
       // equivalent_count: 1
@@ -7744,7 +8758,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "تقرت",
         wilaya_id: 55,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 33.02194444,
+        longitude: 6.022778
     
       // equivalent_id: 387
       // equivalent_count: 1
@@ -7759,7 +8775,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "جانت",
         wilaya_id: 56,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 24.55270656,
+        longitude: 9.4841939
     
       // equivalent_id: 407
       // equivalent_count: 1
@@ -7774,7 +8792,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المغير",
         wilaya_id: 57,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 33.476667,
+        longitude: 6.2725
     
       // equivalent_id: 447
       // equivalent_count: 1
@@ -7789,7 +8809,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المغير",
         wilaya_id: 57,
         new_2026: false,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 34.19111111,
+        longitude: 5.9293
     
       // equivalent_id: 448
       // equivalent_count: 1
@@ -7804,7 +8826,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المنيعة",
         wilaya_id: 58,
         new_2026: false,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 30.57556,
+        longitude: 2.885833333
     
       // equivalent_id: 238
       // equivalent_count: 2
@@ -7820,7 +8844,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "المنيعة",
         wilaya_id: 58,
         new_2026: false,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 31.605278,
+        longitude: 3.6762683
     
       // equivalent_id: 164
       // equivalent_count: 3
@@ -7836,7 +8862,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أفلو",
         wilaya_id: 59,
         new_2026: true,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.02958,
+        longitude: 1.92798
     
       // equivalent_id: 26
       // equivalent_count: 1
@@ -7851,7 +8879,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أفلو",
         wilaya_id: 59,
         new_2026: true,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 33.906111,
+        longitude: 1.784444
     
       // equivalent_id: 28
       // equivalent_count: 2
@@ -7867,7 +8897,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أفلو",
         wilaya_id: 59,
         new_2026: true,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 33.930145,
+        longitude: 2.140703
     
       // equivalent_id: 29
       // equivalent_count: 1
@@ -7882,7 +8914,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "أفلو",
         wilaya_id: 59,
         new_2026: true,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 34.1666669,
+        longitude: 2.3166669
     
       // equivalent_id: 33
       // equivalent_count: 1
@@ -7897,7 +8931,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الأبيض سيدي الشيخ",
         wilaya_id: 60,
         new_2026: true,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.0333,
+        longitude: 5.3
     
       // equivalent_id: 51
       // equivalent_count: 1
@@ -7912,7 +8948,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الأبيض سيدي الشيخ",
         wilaya_id: 60,
         new_2026: true,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.3667,
+        longitude: 5.1833
     
       // equivalent_id: 54
       // equivalent_count: 1
@@ -7927,7 +8965,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "الأبيض سيدي الشيخ",
         wilaya_id: 60,
         new_2026: true,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.329167,
+        longitude: 5.8667
     
       // equivalent_id: 62
       // equivalent_count: 3
@@ -7943,7 +8983,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "العريشة",
         wilaya_id: 61,
         new_2026: true,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.1026843,
+        longitude: 5.864722
     
       // equivalent_id: 88
       // equivalent_count: 1
@@ -7958,7 +9000,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "العريشة",
         wilaya_id: 61,
         new_2026: true,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.192365,
+        longitude: 5.6668306
     
       // equivalent_id: 89
       // equivalent_count: 1
@@ -7973,7 +9017,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "العريشة",
         wilaya_id: 61,
         new_2026: true,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 35.03412,
+        longitude: 5.59517
     
       // equivalent_id: 90
       // equivalent_count: 2
@@ -7989,7 +9035,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "القنطرة",
         wilaya_id: 62,
         new_2026: true,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 34.74488,
+        longitude: 8.06
     
       // equivalent_id: 141
       // equivalent_count: 1
@@ -8004,7 +9052,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "القنطرة",
         wilaya_id: 62,
         new_2026: true,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 34.48593,
+        longitude: 7.5193093
     
       // equivalent_id: 149
       // equivalent_count: 3
@@ -8020,7 +9070,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بريكة",
         wilaya_id: 63,
         new_2026: true,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.6593136,
+        longitude: -1.5450766
     
       // equivalent_id: 156
       // equivalent_count: 1
@@ -8035,7 +9087,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بريكة",
         wilaya_id: 63,
         new_2026: true,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.63797,
+        longitude: -1.15296
     
       // equivalent_id: 170
       // equivalent_count: 2
@@ -8051,7 +9105,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بريكة",
         wilaya_id: 63,
         new_2026: true,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 34.4609,
+        longitude: -1.5664
     
       // equivalent_id: 171
       // equivalent_count: 1
@@ -8066,7 +9122,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بوسعادة",
         wilaya_id: 64,
         new_2026: true,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.4081,
+        longitude: 1.9739
     
       // equivalent_id: 177
       // equivalent_count: 3
@@ -8082,7 +9140,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بوسعادة",
         wilaya_id: 64,
         new_2026: true,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.89336,
+        longitude: 2.31
     
       // equivalent_id: 178
       // equivalent_count: 1
@@ -8097,7 +9157,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بئر العاتر",
         wilaya_id: 65,
         new_2026: true,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.19970336,
+        longitude: 2.682895682
     
       // equivalent_id: 222
       // equivalent_count: 1
@@ -8112,7 +9174,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بئر العاتر",
         wilaya_id: 65,
         new_2026: true,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.6383108,
+        longitude: 3.2869
     
       // equivalent_id: 223
       // equivalent_count: 1
@@ -8127,7 +9191,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بئر العاتر",
         wilaya_id: 65,
         new_2026: true,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.243889,
+        longitude: 3.75
     
       // equivalent_id: 228
       // equivalent_count: 1
@@ -8142,7 +9208,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "بئر العاتر",
         wilaya_id: 65,
         new_2026: true,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.5397,
+        longitude: 2.515833
     
       // equivalent_id: 231
       // equivalent_count: 1
@@ -8157,7 +9225,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قصر البخاري",
         wilaya_id: 66,
         new_2026: true,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 34.527777,
+        longitude: 3.781944
     
       // equivalent_id: 227
       // equivalent_count: 1
@@ -8172,7 +9242,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قصر البخاري",
         wilaya_id: 66,
         new_2026: true,
-        commune_count: 5
+        commune_count: 5,
+        latitude: 33.948333,
+        longitude: 3.231111
     
       // equivalent_id: 230
       // equivalent_count: 1
@@ -8187,7 +9259,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قصر الشلالة",
         wilaya_id: 67,
         new_2026: true,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.908611,
+        longitude: 2.38778
     
       // equivalent_id: 321
       // equivalent_count: 1
@@ -8202,7 +9276,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قصر الشلالة",
         wilaya_id: 67,
         new_2026: true,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.552778,
+        longitude: 2.1731
     
       // equivalent_id: 324
       // equivalent_count: 1
@@ -8217,7 +9293,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قصر الشلالة",
         wilaya_id: 67,
         new_2026: true,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.88889,
+        longitude: 2.74905
     
       // equivalent_id: 329
       // equivalent_count: 1
@@ -8232,7 +9310,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "قصر الشلالة",
         wilaya_id: 67,
         new_2026: true,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 36.00933333,
+        longitude: 3.2556
     
       // equivalent_id: 336
       // equivalent_count: 1
@@ -8247,7 +9327,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين وسارة",
         wilaya_id: 68,
         new_2026: true,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 35.0404431,
+        longitude: 4.5633795
     
       // equivalent_id: 351
       // equivalent_count: 1
@@ -8262,7 +9344,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين وسارة",
         wilaya_id: 68,
         new_2026: true,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 34.938889,
+        longitude: 3.734722222
     
       // equivalent_id: 354
       // equivalent_count: 1
@@ -8277,7 +9361,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين وسارة",
         wilaya_id: 68,
         new_2026: true,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 35.31444444,
+        longitude: 4.566944
     
       // equivalent_id: 356
       // equivalent_count: 1
@@ -8292,7 +9378,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين وسارة",
         wilaya_id: 68,
         new_2026: true,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 36.2,
+        longitude: 4.174722
     
       // equivalent_id: 360
       // equivalent_count: 2
@@ -8308,7 +9396,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "عين وسارة",
         wilaya_id: 68,
         new_2026: true,
-        commune_count: 2
+        commune_count: 2,
+        latitude: 35.3667,
+        longitude: 3.9066533
     
       // equivalent_id: 362
       // equivalent_count: 2
@@ -8324,7 +9414,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "مسعد",
         wilaya_id: 69,
         new_2026: true,
-        commune_count: 1
+        commune_count: 1,
+        latitude: 32.8643,
+        longitude: 0.0201
     
       // equivalent_id: 401
       // equivalent_count: 1
@@ -8339,7 +9431,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "مسعد",
         wilaya_id: 69,
         new_2026: true,
-        commune_count: 3
+        commune_count: 3,
+        latitude: 33.08333333,
+        longitude: 1.261
     
       // equivalent_id: 402
       // equivalent_count: 2
@@ -8355,7 +9449,9 @@ const dairaFinalUpdate = {
         wilaya_name_ar: "مسعد",
         wilaya_id: 69,
         new_2026: true,
-        commune_count: 4
+        commune_count: 4,
+        latitude: 32.898611,
+        longitude: 0.544444
     
       // equivalent_id: 404
       // equivalent_count: 1
