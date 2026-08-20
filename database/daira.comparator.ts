@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-import distric from "./district";
+import distric from "./district.ok-db";
 import daira from "./daira";
 
 // ============================================================
